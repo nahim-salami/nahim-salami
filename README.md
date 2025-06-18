@@ -97,7 +97,7 @@ Expérience interactive pour configurer des chaises en ligne, avec rendu 3D imme
 - WordPress 6 | Vue.js | Symfony | React | PHP/MySQL
 - Sécurité Web | SEO avancé | JS | C# | C++
 
-> [Voir les certificats](https://openclassrooms.com/fr/user/nahim-salami)
+> [Voir les certificats](https://www.linkedin.com/in/nahimsalami/)
 
 ---
 

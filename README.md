@@ -53,7 +53,7 @@ Expérience interactive pour configurer des chaises en ligne, avec rendu 3D imme
 ### 🎮 [Galaxy Game](https://github.com/nahim-salami/galaxy-game) *(Public)*
 > Jeu interactif en JS & HTML5 Canvas
 
-### 🛒 Neon Product Designer *(Privé)*
+### 🛒 [Neon Product Designer](https://neonstore.be/neon-designer/) *(Public)*
 > Configurateur graphique de produits lumineux (Vue.js + WordPress)
 
 ### 🧩 Plugins WordPress : Allada & Orion Compare *(Privés)*
@@ -66,7 +66,7 @@ Expérience interactive pour configurer des chaises en ligne, avec rendu 3D imme
 ### 💼 [My Business Center – MyBC](https://github.com/nahim-salami/mybc-front) *(Privé)*
 > Application de gestion commerciale – Vue.js, Node.js, MySQL
 
-### 🎟️ [Ticket App](https://github.com/nahim-salami/ticket-app) *(Privé)*
+### 🎟️ [Ticket App](https://github.com/nahim-salami/ticket-app) *(Public)*
 > Application de billetterie – Laravel, Vue.js, MySQL
 
 ### 📩 [Easy Step Form](https://github.com/Ahiime/EasyStepsForm) *(Public)*
@@ -84,7 +84,7 @@ Expérience interactive pour configurer des chaises en ligne, avec rendu 3D imme
 ### ⌨️ [Simulate Typing](https://github.com/nahim-salami/simulate-typing) *(Public)*
 > Simule la frappe clavier pour animer du texte
 
-### 🗓️ [Gestio](https://github.com/nahim-salami/Gestio) *(Public)*
+### 🗓️ [Gestio](https://github.com/nahim-salami/Gestio) *(Privé)*
 > Gestion d’emplois du temps à l’université – PHP, JS
 
 ### 🏘️ [IMOTECK](https://github.com/nahim-salami/IMOTECK) *(Public)*

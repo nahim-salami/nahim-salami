@@ -85,7 +85,7 @@ En tant que **CEO de [Ahime](https://ahime.net)**, j’allie leadership, innovat
 
 ---
 
-## 🧭 Visual — Compétences (graphiques circulaires)
+## 🧭 Visual — Compétences
 <table>
   <tr>
     <td align="center">

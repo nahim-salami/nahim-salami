@@ -1,96 +1,160 @@
-# 👋 Hello, I'm **Nahim Salami**
+# 👋 Salut — je suis **Nahim Salami**
 
-## 🚀 CEO · Software Architect · Full Stack · Team Leader
+<img alt="wave" src="data:image/svg+xml;utf8,
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='120' viewBox='0 0 720 120'>
+  <defs>
+    <linearGradient id='g' x1='0' x2='1'>
+      <stop offset='0' stop-color='%23086ef0'/>
+      <stop offset='1' stop-color='%2328c76f'/>
+    </linearGradient>
+    <style>
+      <![CDATA[
+        .title { font: 700 28px/1.1 "Inter", Roboto, sans-serif; fill:url(#g); }
+        .subtitle { font: 400 14px/1.2 "Inter", Roboto, sans-serif; fill:#556; }
+      ]]>
+    </style>
+  </defs>
 
-Bienvenue sur mon GitHub ! Je conçois des produits web & mobile depuis plus de **7 ans** : architecture, équipes, SaaS et configurateurs 3D.  
-En tant que **CEO de [Ahime](https://ahime.net)**, j’allie leadership, innovation et expertise technique pour livrer des solutions robustes, évolutives et centrées utilisateur.
+  <!-- animated underline -->
+  <text x='28' y='44' class='title'>Nahim Salami</text>
+  <text x='28' y='72' class='subtitle'>CEO · Software Architect · Full Stack · Team Leader</text>
 
----
-
-## 🔗 Sites principaux
-[![Formigo](https://img.shields.io/badge/-Formigo-28c76f?style=flat-square&logo=wordpress)](https://formigo.ahime.net)  
-[![Configurator3D](https://img.shields.io/badge/-Configurator3D-6C63FF?style=flat-square)](https://configurator3d.ahime.net)  
-[![Atime](https://img.shields.io/badge/-Atime-00AEEF?style=flat-square)](https://atime-lake.vercel.app/)  
-[![Kkivo](https://img.shields.io/badge/-Kkivo-FB8C00?style=flat-square)](https://github.com/nahim-salami)  
-[![Ahime](https://img.shields.io/badge/-Ahime.net-0b1b2b?style=flat-square)](https://ahime.net)
-
----
-
-## 🛠️ Tech Stack & Expertise
-
-**Langages & Outils**  
-PHP · JavaScript (ES6+) · Node.js · C# · C++ · SQL · Vue.js · React.js · AngularJS · Laravel · Symfony · ASP.NET Core · Express.js · Three.js · Blender · Docker · Kubernetes · GitHub Actions · Azure · AWS · WordPress (plugins custom)
-
-**Compétences transversales**  
-Architecture microservices · Sécurité applicative · Management d’équipes (jusqu'à 12 pers.) · Méthodologies Agile (Scrum/Kanban) · Veille technologique
-
----
-
-## 🔭 Projets & Démos (fusion complète)
-
-### 🌐 Plateformes & SaaS
-- **Formigo** — https://formigo.ahime.net  
-  *Plateforme de formation : inscription 100% gratuite, création & suivi de formations (payantes ou non).*
-- **app.ahime.net** — Plateforme automatisée pour créer un site WordPress gratuitement (hébergement + sous-domaine).
-- **Configurator3D (SaaS)** — https://configurator3d.ahime.net  
-  *Créer, publier et intégrer un configurateur 3D où vous voulez.*
-- **Atime (location)** — https://atime-lake.vercel.app/
-- **Kkivo** — ERP + eCommerce + eLearning (paiements locaux)
-
-### 🎨 Configurateurs 3D (Realtime)
-- **Window3D** — https://window3d.ahime.net *(React.js, Vue.js, Node.js, MySQL, Three.js, Maya, Blender)*
-- **Chair3D** — https://chair3d.ahime.net *(React.js, Three.js)*
-
-### 🌟 Projets phares & Démos
-- **Galaxy Game** — https://github.com/nahim-salami/galaxy-game *(Public)*
-- **Neon Product Designer** — https://neonstore.be/neon-designer/ *(Public)*
-
-### 🚧 Applications & Librairies
-- **My Business Center – MyBC** — https://github.com/nahim-salami/mybc-front *(Privé)*
-- **Ticket App** — https://github.com/nahim-salami/ticket-app *(Public)*
-- **Easy Step Form** — https://github.com/Ahiime/EasyStepsForm *(Public)*
-- **Role-Based Pricing** — https://github.com/Ahiime/Ahime-Role-Based-Pricing *(Public)*
-- **SYSMOREC** — https://github.com/nahim-salami/SYSMOREC *(Privé)*
-- **Drag On Grid** — https://github.com/nahim-salami/drag-on-grid *(Public)*
-- **Simulate Typing** — https://github.com/nahim-salami/simulate-typing *(Public)*
-- **Gestio** — https://github.com/nahim-salami/Gestio *(Privé)*
-- **IMOTECK** — https://github.com/nahim-salami/IMOTECK *(Public)*
+  <g transform='translate(0,0)'>
+    <path d='M28 54 q80 28 160 0 q80 -28 160 0 q80 28 160 0' fill='none' stroke='url(#g)' stroke-width='3' stroke-linecap='round' stroke-opacity='0.15'>
+      <animate attributeName='stroke-dashoffset' values='0;600' dur='6s' repeatCount='indefinite'/>
+    </path>
+  </g>
+</svg>" />
 
 ---
 
-## 🧭 Visual — Compétences (assets générés dynamiquement)
-> Les images animées (GIFs) pour les compétences sont générées automatiquement par la GitHub Action et stockées dans `assets/`. Si elles ne sont pas présentes, le README peut afficher des versions PNG statiques (générées aussi).
-
-**Exemples d’assets attendus (ajoutés automatiquement)**  
-- `assets/skill-js.gif` / `assets/skill-js.png`  
-- `assets/skill-php.gif` / `assets/skill-php.png`  
-- `assets/skill-react.gif` / `assets/skill-react.png`  
-- `assets/skill-three.gif` / `assets/skill-three.png`  
-- `assets/skill-docker.gif` / `assets/skill-docker.png`  
-- `assets/skill-sql.gif` / `assets/skill-sql.png`
-
-<!-- > *Si tu veux forcer l'affichage d'un PNG/GIF dans le README, modifie les URLs ci-dessous vers `assets/*.png` ou `assets/*.gif` selon ce que tu préfères.*
- -->
+## À propos
+Je construis des produits web & mobile depuis plus de **7 ans** : architecture, SaaS, configurateurs 3D et management d'équipes. J'allie leadership produit et savoir-faire technique pour livrer des solutions scalables et centrées utilisateur.
 
 ---
 
-## 📊 GitHub & Activity
-![Nahim's GitHub stats](https://github-readme-stats.vercel.app/api?username=nahim-salami&show_icons=true&theme=radical)
+## 🚀 Liens clés
+- 🔗 **Formigo** — plateforme de formation (inscription 100% gratuite) — https://formigo.ahime.net  
+- 🧩 **Configurator3D (SaaS)** — créer & intégrer un configurateur 3D — https://configurator3d.ahime.net  
+- 🏕️ **Atime (location)** — https://atime-lake.vercel.app/  
+- 🧭 **Ahime — app / SaaS** — https://app.ahime.net  
+- 🧾 **Kkivo** — ERP + eCommerce + eLearning (paiements locaux) — (présentation / lien à ajouter)
 
 ---
 
-## 📜 Certifications
-WordPress 6 · Vue.js · Symfony · React · PHP/MySQL · Sécurité Web · SEO avancé · JS · C# · C++
+## ✨ Projets en vedette
+> Tous les liens ci-dessous sont réels — ouvre-les pour voir les démos/repos.
 
-> [Voir les certificats & profil LinkedIn](https://www.linkedin.com/in/nahimsalami/)
+- **Window3D** — https://window3d.ahime.net — configurateur de fenêtres en 3D (Three.js, React/Vue)  
+- **Chair3D** — https://chair3d.ahime.net — configurateur chaise 3D  
+- **Galaxy Game** — https://github.com/nahim-salami/galaxy-game *(jeu JS public)*  
+- **Neon Product Designer** — https://neonstore.be/neon-designer/ *(configurateur public)*
+
+Repos & libs (sélection) :  
+- https://github.com/nahim-salami/mybc-front *(My Business Center – privé)*  
+- https://github.com/nahim-salami/ticket-app *(Ticket App – public)*  
+- https://github.com/Ahiime/EasyStepsForm *(Easy Step Form – public)*  
+- https://github.com/Ahiime/Ahime-Role-Based-Pricing *(Role-Based Pricing – public)*  
+- https://github.com/nahim-salami/drag-on-grid *(Drag On Grid – public)*  
+- https://github.com/nahim-salami/simulate-typing *(Simulate Typing – public)*  
+- https://github.com/nahim-salami/IMOTECK *(IMOTECK – public)*
+
+---
+
+## 🧩 Stack & coeur de métier
+**Langages & frameworks**  
+PHP · JavaScript (Node/ES6+) · Vue.js · React.js · Laravel · Symfony · ASP.NET Core · Three.js
+
+**Infrastructure & outils**  
+Docker · Kubernetes · GitHub Actions · MySQL / SQL Server · Azure · AWS · WordPress (plugins custom)
+
+**Savoir-faire**  
+Architecture microservices · sécurité applicative · design d’API · management d’équipes · UX & produits SaaS
+
+---
+
+## 🔥 Visual — Widgets & animations
+
+<!-- Dynamic stat cards (live images) -->
+<p align="center">
+  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=nahim-salami&show_icons=true&theme=dark&hide_title=true" />
+  &nbsp;
+  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahim-salami&layout=compact&theme=dark&hide_title=true" />
+</p>
+
+<!-- Activity / Streaks -->
+<p align="center">
+  <img alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=nahim-salami&theme=dark" />
+  &nbsp;
+  <img alt="Profile Trophy" src="https://github-profile-trophy.vercel.app/?username=nahim-salami&theme=dark" />
+</p>
+
+---
+
+## 🎛️ Compétences — aperçu animé
+> Animations SVG légères (rotation / pulsation) — pas de chiffres fictifs, uniquement des labels.
+
+<p align="center">
+  <img alt="skill-js" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='220' height='120' viewBox='0 0 220 120'>
+    <style>
+      .lbl{font:600 12px/1.1 Inter,Roboto,Arial;fill:#0b1b2b}
+    </style>
+    <g transform='translate(10,10)'>
+      <circle cx='40' cy='40' r='30' fill='none' stroke='%23f7df1e' stroke-width='6' stroke-linecap='round'>
+        <animateTransform attributeName='transform' attributeType='XML' type='rotate' from='0 40 40' to='360 40 40' dur='6s' repeatCount='indefinite'/>
+      </circle>
+      <text x='85' y='45' class='lbl'>JavaScript · Node.js</text>
+    </g>
+  </svg>"/>
+  &nbsp;
+  <img alt="skill-3d" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='220' height='120' viewBox='0 0 220 120'>
+    <style>
+      .lbl{font:600 12px/1.1 Inter,Roboto,Arial;fill:#0b1b2b}
+    </style>
+    <g transform='translate(10,10)'>
+      <g transform='translate(0,0)'>
+        <circle cx='40' cy='40' r='30' fill='none' stroke='%236C63FF' stroke-width='6'>
+          <animate attributeName='stroke-opacity' values='1;0.25;1' dur='3s' repeatCount='indefinite'/>
+        </circle>
+        <circle cx='40' cy='40' r='18' fill='none' stroke='%238a2be2' stroke-width='3'>
+          <animateTransform attributeName='transform' attributeType='XML' type='rotate' from='0 40 40' to='360 40 40' dur='2s' repeatCount='indefinite'/>
+        </circle>
+      </g>
+      <text x='85' y='45' class='lbl'>3D · Three.js · Blender</text>
+    </g>
+  </svg>"/>
+  &nbsp;
+  <img alt="skill-backend" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='220' height='120' viewBox='0 0 220 120'>
+    <style>.lbl{font:600 12px/1.1 Inter,Roboto,Arial;fill:#0b1b2b}</style>
+    <g transform='translate(10,10)'>
+      <rect x='12' y='8' width='56' height='64' rx='8' fill='none' stroke='%230b72ff' stroke-width='6'>
+        <animate attributeName='stroke' values='%230b72ff;%2328c76f;%230b72ff' dur='4s' repeatCount='indefinite'/>
+      </rect>
+      <text x='85' y='45' class='lbl'>Backend · PHP · Laravel</text>
+    </g>
+  </svg>"/>
+</p>
+
+---
+
+## 📦 Comment j'aime travailler
+- Produit d'abord (user flows & MVPs rapides)  
+- Tests & CI (automatisation, déploiements reproductibles)  
+- Documentation et onboarding d'équipes
 
 ---
 
 ## 📫 Contact
-✉️ **nahim.salami@ahime.net**  
-📍 Abomey-Calavi, Bénin · ☎️ (+229) 01 95 14 6985  
-🔗 https://ahime.net · https://github.com/nahim-salami · https://linkedin.com/in/nahimsalami
+- ✉️ nahim.salami@ahime.net  
+- 🌐 https://ahime.net · https://github.com/nahim-salami · https://linkedin.com/in/nahimsalami  
+- 📍 Abomey-Calavi, Bénin
 
 ---
 
-> _“Passion. Rigueur. Impact. J'écris du code qui change les choses.”_
+> *Si tu veux que j’ajoute :*  
+> - un **GIF animé personnalisé** (ex : une démo courte de Configurator3D) et le pousse dans `assets/` ;  
+> - un **workflow GitHub** pour générer automatiquement des GIF/PNG (je l’ai déjà préparé si tu veux) ;  
+> - une **version anglaise** du README — dis-le et je la fournis tout de suite.

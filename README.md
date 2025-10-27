@@ -8,7 +8,7 @@ En tant que **CEO de [Ahime](https://ahime.net)**, j’allie leadership, innovat
 ---
 
 ## 🔗 Sites principaux
-[![Formigo](https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=wordpress)](https://formigo.ahime.net)  
+[![Formigo](https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=react)](https://formigo.ahime.net)  
 [![Configurator3D](https://img.shields.io/badge/-Configurator3D-6C63FF?style=flat-square)](https://configurator3d.ahime.net)  
 [![Atime](https://img.shields.io/badge/-Atime-00AEEF?style=flat-square)](https://atime-lake.vercel.app/)  
 [![Kkivo](https://img.shields.io/badge/-Kkivo-FB8C00?style=flat-square)](https://github.com/nahim-salami) <!-- ajouter URL publique si disponible -->
@@ -89,24 +89,24 @@ En tant que **CEO de [Ahime](https://ahime.net)**, j’allie leadership, innovat
 <table>
   <tr>
     <td align="center">
-      <img alt="JS 90%" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' width='96' height='96'><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23eeeeee' stroke-width='3'/><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23f7df1e' stroke-width='3' stroke-dasharray='90,100' stroke-linecap='round'/><text x='18' y='21' font-size='5' text-anchor='middle' fill='%23000000'>JS 90%</text></svg>" /><div>JavaScript / Node.js</div>
+      <img alt="JS 90%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=javascript" /><div>JavaScript / Node.js</div>
     </td>
     <td align="center">
-      <img alt="PHP 85%" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' width='96' height='96'><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23eeeeee' stroke-width='3'/><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23107cbe' stroke-width='3' stroke-dasharray='85,100' stroke-linecap='round'/><text x='18' y='21' font-size='5' text-anchor='middle' fill='%23000000'>PHP 85%</text></svg>" /><div>PHP / Laravel / Symfony</div>
+      <img alt="PHP 85%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=php" /><div>PHP / Laravel / Symfony</div>
     </td>
     <td align="center">
-      <img alt="React 88%" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' width='96' height='96'><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23eeeeee' stroke-width='3'/><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%2361dafb' stroke-width='3' stroke-dasharray='88,100' stroke-linecap='round'/><text x='18' y='21' font-size='5' text-anchor='middle' fill='%23000000'>React 88%</text></svg>" /><div>React / Vue / Frontend</div>
+      <img alt="React 88%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=react" /><div>React / Vue / Frontend</div>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img alt="Three.js 75%" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' width='96' height='96'><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23eeeeee' stroke-width='3'/><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%238a2be2' stroke-width='3' stroke-dasharray='75,100' stroke-linecap='round'/><text x='18' y='21' font-size='4' text-anchor='middle' fill='%23000000'>Three.js 75%</text></svg>" /><div>3D / Three.js / Blender</div>
+      <img alt="Three.js 75%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=blender" /><div>3D / Three.js / Blender</div>
     </td>
     <td align="center">
-      <img alt="Docker 80%" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' width='96' height='96'><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23eeeeee' stroke-width='3'/><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23007acc' stroke-width='3' stroke-dasharray='80,100' stroke-linecap='round'/><text x='18' y='21' font-size='4' text-anchor='middle' fill='%23000000'>Docker 80%</text></svg>" /><div>Docker / K8s / DevOps</div>
+      <img alt="Docker 80%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=docker" /><div>Docker / K8s / DevOps</div>
     </td>
     <td align="center">
-      <img alt="SQL 82%" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' width='96' height='96'><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23eeeeee' stroke-width='3'/><path d='M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831' fill='none' stroke='%23e67e22' stroke-width='3' stroke-dasharray='82,100' stroke-linecap='round'/><text x='18' y='21' font-size='4' text-anchor='middle' fill='%23000000'>SQL 82%</text></svg>" /><div>MySQL / SQL Server</div>
+      <img alt="SQL 82%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=mysql" /><div>MySQL / SQL Server</div>
     </td>
   </tr>
 </table>

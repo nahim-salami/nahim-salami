@@ -1,0 +1,11 @@
+{
+  "name": "skill-assets-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generate_charts.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}

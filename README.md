@@ -1,160 +1,174 @@
-# 👋 Salut — je suis **Nahim Salami**
+# 👋 Nahim Salami — CEO · Full-stack Developer · Chef de projet
 
-<img alt="wave" src="data:image/svg+xml;utf8,
-<svg xmlns='http://www.w3.org/2000/svg' width='720' height='120' viewBox='0 0 720 120'>
-  <defs>
-    <linearGradient id='g' x1='0' x2='1'>
-      <stop offset='0' stop-color='%23086ef0'/>
-      <stop offset='1' stop-color='%2328c76f'/>
-    </linearGradient>
-    <style>
-      <![CDATA[
-        .title { font: 700 28px/1.1 "Inter", Roboto, sans-serif; fill:url(#g); }
-        .subtitle { font: 400 14px/1.2 "Inter", Roboto, sans-serif; fill:#556; }
-      ]]>
-    </style>
-  </defs>
+<p align="center">
+  Développement web & mobile · SaaS · Configurateurs 3D · Architecture · Management
+</p>
 
-  <!-- animated underline -->
-  <text x='28' y='44' class='title'>Nahim Salami</text>
-  <text x='28' y='72' class='subtitle'>CEO · Software Architect · Full Stack · Team Leader</text>
+---
 
-  <g transform='translate(0,0)'>
-    <path d='M28 54 q80 28 160 0 q80 -28 160 0 q80 28 160 0' fill='none' stroke='url(#g)' stroke-width='3' stroke-linecap='round' stroke-opacity='0.15'>
-      <animate attributeName='stroke-dashoffset' values='0;600' dur='6s' repeatCount='indefinite'/>
+<!-- ROW 1 : Role | Résumé | Contact -->
+<p align="center">
+  <img alt="Card - Role" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <defs>
+      <linearGradient id='g1' x1='0' x2='1'><stop offset='0' stop-color='%230b72ff'/><stop offset='1' stop-color='%2328c76f'/></linearGradient>
+    </defs>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='36' font-family='Inter, Roboto, Arial' font-weight='700' font-size='20' fill='%230b1b2b'>Nahim Salami</text>
+    <text x='22' y='60' font-family='Inter, Roboto, Arial' font-size='12' fill='%23555'>CEO • Full-stack Developer • Chef de projet</text>
+    <a href='https://ahime.net'><rect x='22' y='84' width='120' height='28' rx='6' fill='url(%23g1)' /></a>
+    <text x='32' y='103' font-family='Inter, Roboto, Arial' font-size='12' fill='%23fff'>Ahime — ahime.net</text>
+    <g transform='translate(260,18)'>
+      <circle cx='24' cy='24' r='24' fill='none' stroke='url(%23g1)' stroke-width='3' />
+      <text x='24' y='29' font-family='Inter, Roboto, Arial' font-weight='700' font-size='14' fill='%230b1b2b' text-anchor='middle'>7+</text>
+      <text x='24' y='44' font-family='Inter, Roboto, Arial' font-size='9' fill='%23555' text-anchor='middle'>ans</text>
+    </g>
+    <!-- animated underline -->
+    <path d='M22 116 h316' stroke='url(%23g1)' stroke-width='3' stroke-linecap='round' stroke-opacity='0.5'>
+      <animate attributeName='stroke-dashoffset' from='0' to='600' dur='6s' repeatCount='indefinite'/>
     </path>
-  </g>
-</svg>" />
-
----
-
-## À propos
-Je construis des produits web & mobile depuis plus de **7 ans** : architecture, SaaS, configurateurs 3D et management d'équipes. J'allie leadership produit et savoir-faire technique pour livrer des solutions scalables et centrées utilisateur.
-
----
-
-## 🚀 Liens clés
-- 🔗 **Formigo** — plateforme de formation (inscription 100% gratuite) — https://formigo.ahime.net  
-- 🧩 **Configurator3D (SaaS)** — créer & intégrer un configurateur 3D — https://configurator3d.ahime.net  
-- 🏕️ **Atime (location)** — https://atime-lake.vercel.app/  
-- 🧭 **Ahime — app / SaaS** — https://app.ahime.net  
-- 🧾 **Kkivo** — ERP + eCommerce + eLearning (paiements locaux) — (présentation / lien à ajouter)
-
----
-
-## ✨ Projets en vedette
-> Tous les liens ci-dessous sont réels — ouvre-les pour voir les démos/repos.
-
-- **Window3D** — https://window3d.ahime.net — configurateur de fenêtres en 3D (Three.js, React/Vue)  
-- **Chair3D** — https://chair3d.ahime.net — configurateur chaise 3D  
-- **Galaxy Game** — https://github.com/nahim-salami/galaxy-game *(jeu JS public)*  
-- **Neon Product Designer** — https://neonstore.be/neon-designer/ *(configurateur public)*
-
-Repos & libs (sélection) :  
-- https://github.com/nahim-salami/mybc-front *(My Business Center – privé)*  
-- https://github.com/nahim-salami/ticket-app *(Ticket App – public)*  
-- https://github.com/Ahiime/EasyStepsForm *(Easy Step Form – public)*  
-- https://github.com/Ahiime/Ahime-Role-Based-Pricing *(Role-Based Pricing – public)*  
-- https://github.com/nahim-salami/drag-on-grid *(Drag On Grid – public)*  
-- https://github.com/nahim-salami/simulate-typing *(Simulate Typing – public)*  
-- https://github.com/nahim-salami/IMOTECK *(IMOTECK – public)*
-
----
-
-## 🧩 Stack & coeur de métier
-**Langages & frameworks**  
-PHP · JavaScript (Node/ES6+) · Vue.js · React.js · Laravel · Symfony · ASP.NET Core · Three.js
-
-**Infrastructure & outils**  
-Docker · Kubernetes · GitHub Actions · MySQL / SQL Server · Azure · AWS · WordPress (plugins custom)
-
-**Savoir-faire**  
-Architecture microservices · sécurité applicative · design d’API · management d’équipes · UX & produits SaaS
-
----
-
-## 🔥 Visual — Widgets & animations
-
-<!-- Dynamic stat cards (live images) -->
-<p align="center">
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=nahim-salami&show_icons=true&theme=dark&hide_title=true" />
-  &nbsp;
-  <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahim-salami&layout=compact&theme=dark&hide_title=true" />
-</p>
-
-<!-- Activity / Streaks -->
-<p align="center">
-  <img alt="Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=nahim-salami&theme=dark" />
-  &nbsp;
-  <img alt="Profile Trophy" src="https://github-profile-trophy.vercel.app/?username=nahim-salami&theme=dark" />
-</p>
-
----
-
-## 🎛️ Compétences — aperçu animé
-> Animations SVG légères (rotation / pulsation) — pas de chiffres fictifs, uniquement des labels.
-
-<p align="center">
-  <img alt="skill-js" src="data:image/svg+xml;utf8,
-  <svg xmlns='http://www.w3.org/2000/svg' width='220' height='120' viewBox='0 0 220 120'>
-    <style>
-      .lbl{font:600 12px/1.1 Inter,Roboto,Arial;fill:#0b1b2b}
-    </style>
-    <g transform='translate(10,10)'>
-      <circle cx='40' cy='40' r='30' fill='none' stroke='%23f7df1e' stroke-width='6' stroke-linecap='round'>
-        <animateTransform attributeName='transform' attributeType='XML' type='rotate' from='0 40 40' to='360 40 40' dur='6s' repeatCount='indefinite'/>
-      </circle>
-      <text x='85' y='45' class='lbl'>JavaScript · Node.js</text>
-    </g>
-  </svg>"/>
-  &nbsp;
-  <img alt="skill-3d" src="data:image/svg+xml;utf8,
-  <svg xmlns='http://www.w3.org/2000/svg' width='220' height='120' viewBox='0 0 220 120'>
-    <style>
-      .lbl{font:600 12px/1.1 Inter,Roboto,Arial;fill:#0b1b2b}
-    </style>
-    <g transform='translate(10,10)'>
-      <g transform='translate(0,0)'>
-        <circle cx='40' cy='40' r='30' fill='none' stroke='%236C63FF' stroke-width='6'>
-          <animate attributeName='stroke-opacity' values='1;0.25;1' dur='3s' repeatCount='indefinite'/>
-        </circle>
-        <circle cx='40' cy='40' r='18' fill='none' stroke='%238a2be2' stroke-width='3'>
-          <animateTransform attributeName='transform' attributeType='XML' type='rotate' from='0 40 40' to='360 40 40' dur='2s' repeatCount='indefinite'/>
-        </circle>
-      </g>
-      <text x='85' y='45' class='lbl'>3D · Three.js · Blender</text>
-    </g>
-  </svg>"/>
-  &nbsp;
-  <img alt="skill-backend" src="data:image/svg+xml;utf8,
-  <svg xmlns='http://www.w3.org/2000/svg' width='220' height='120' viewBox='0 0 220 120'>
-    <style>.lbl{font:600 12px/1.1 Inter,Roboto,Arial;fill:#0b1b2b}</style>
-    <g transform='translate(10,10)'>
-      <rect x='12' y='8' width='56' height='64' rx='8' fill='none' stroke='%230b72ff' stroke-width='6'>
-        <animate attributeName='stroke' values='%230b72ff;%2328c76f;%230b72ff' dur='4s' repeatCount='indefinite'/>
+  </svg>" style="margin:6px;" />
+  <img alt="Card - Résumé" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='36' font-family='Inter, Roboto, Arial' font-weight='700' font-size='16' fill='%230b1b2b'>Résumé professionnel</text>
+    <text x='22' y='60' font-family='Inter, Roboto, Arial' font-size='12' fill='%23555'>• Direction & architecture produit (SaaS & 3D)</text>
+    <text x='22' y='78' font-family='Inter, Roboto, Arial' font-size='12' fill='%23555'>• Développement full-stack : frontend, backend, 3D</text>
+    <text x='22' y='96' font-family='Inter, Roboto, Arial' font-size='12' fill='%23555'>• Management d'équipes techniques et livraisons agiles</text>
+    <g transform='translate(22,112)'>
+      <rect x='0' y='0' width='316' height='8' rx='4' fill='%23f0f6ff' />
+      <rect x='0' y='0' width='210' height='8' rx='4' fill='%230b72ff'>
+        <animate attributeName='width' values='0;210;210' dur='2.6s' repeatCount='indefinite' />
       </rect>
-      <text x='85' y='45' class='lbl'>Backend · PHP · Laravel</text>
+      <text x='0' y='28' font-family='Inter, Roboto, Arial' font-size='10' fill='%23555'>Approche : Produit → Tests → Déploiement continu</text>
     </g>
-  </svg>"/>
+  </svg>" style="margin:6px;" />
+  <img alt="Card - Contact" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='36' font-family='Inter, Roboto, Arial' font-weight='700' font-size='16' fill='%230b1b2b'>Contact</text>
+    <text x='22' y='60' font-family='Inter, Roboto, Arial' font-size='12' fill='%23555'>✉️ nahim.salami@ahime.net</text>
+    <text x='22' y='78' font-family='Inter, Roboto, Arial' font-size='12' fill='%23555'>☎️ (+229) 01 95 14 6985</text>
+    <text x='22' y='96' font-family='Inter, Roboto, Arial' font-size='12' fill='%23555'>📍 Abomey-Calavi, Bénin</text>
+    <a href='https://linkedin.com/in/nahimsalami'><rect x='22' y='110' width='120' height='28' rx='6' fill='%23286cfe' /></a>
+    <text x='32' y='129' font-family='Inter, Roboto, Arial' font-size='12' fill='%23fff'>LinkedIn</text>
+  </svg>" style="margin:6px;" />
 </p>
 
 ---
 
-## 📦 Comment j'aime travailler
-- Produit d'abord (user flows & MVPs rapides)  
-- Tests & CI (automatisation, déploiements reproductibles)  
-- Documentation et onboarding d'équipes
+<!-- ROW 2 : Tech Stack | Projets principaux | Repos & Certifs -->
+<p align="center">
+  <img alt="Card - Tech Stack" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='32' font-family='Inter, Roboto, Arial' font-weight='700' font-size='16' fill='%230b1b2b'>Tech Stack</text>
+
+    <!-- icons (simple circles) -->
+    <g transform='translate(20,48)'>
+      <g transform='translate(0,0)'>
+        <circle cx='20' cy='20' r='20' fill='%23f7df1e' stroke='%23e1d400' stroke-width='1'/>
+        <text x='20' y='26' text-anchor='middle' font-family='Inter' font-size='9' fill='%230b1b2b'>JS</text>
+      </g>
+      <g transform='translate(60,0)'>
+        <circle cx='20' cy='20' r='20' fill='%230b72ff' />
+        <text x='20' y='26' text-anchor='middle' font-family='Inter' font-size='9' fill='%23fff'>PHP</text>
+      </g>
+      <g transform='translate(120,0)'>
+        <circle cx='20' cy='20' r='20' fill='%2361dafb' />
+        <text x='20' y='26' text-anchor='middle' font-family='Inter' font-size='9' fill='%230b1b2b'>React</text>
+      </g>
+      <g transform='translate(180,0)'>
+        <circle cx='20' cy='20' r='20' fill='%236C63FF' />
+        <text x='20' y='26' text-anchor='middle' font-family='Inter' font-size='9' fill='%23fff'>3D</text>
+      </g>
+      <g transform='translate(240,0)'>
+        <circle cx='20' cy='20' r='20' fill='%23007acc' />
+        <text x='20' y='26' text-anchor='middle' font-family='Inter' font-size='9' fill='%23fff'>Docker</text>
+      </g>
+    </g>
+
+    <text x='22' y='120' font-family='Inter, Roboto' font-size='11' fill='%23555'>Principaux outils : Vue.js • React • Laravel • Three.js • Docker • K8s • GitHub Actions • Azure/AWS</text>
+
+    <!-- subtle shimmer -->
+    <rect x='-60' y='0' width='80' height='160' fill='%23ffffff' opacity='0.02'>
+      <animate attributeName='x' from='-60' to='420' dur='5s' repeatCount='indefinite'/>
+    </rect>
+  </svg>" style="margin:6px;" />
+  <img alt="Card - Projets" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='32' font-family='Inter, Roboto' font-weight='700' font-size='16' fill='%230b1b2b'>Projets & plateformes</text>
+    <g transform='translate(22,46)'>
+      <text x='0' y='0' font-family='Inter' font-size='12' fill='%23555'>• Formigo — formation (inscription gratuite)</text>
+      <text x='0' y='22' font-family='Inter' font-size='12' fill='%23555'>• Configurator3D — SaaS configurateurs 3D</text>
+      <text x='0' y='44' font-family='Inter' font-size='12' fill='%23555'>• Window3D · Chair3D — configurateurs 3D</text>
+      <text x='0' y='66' font-family='Inter' font-size='12' fill='%23555'>• Atime — platef. location</text>
+    </g>
+    <g transform='translate(240,44)'>
+      <rect x='0' y='0' width='86' height='34' rx='6' fill='%2328c76f' />
+      <text x='43' y='22' font-family='Inter' font-size='11' fill='%23fff' text-anchor='middle'>Visiter</text>
+      <animateTransform attributeName='transform' attributeType='XML' type='scale' values='1;1.02;1' dur='3s' repeatCount='indefinite' />
+    </g>
+  </svg>" style="margin:6px;" />
+  <img alt="Card - Repos & Certifs" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='32' font-family='Inter, Roboto' font-weight='700' font-size='16' fill='%230b1b2b'>Dépôts & certifications</text>
+    <g transform='translate(22,52)'>
+      <text x='0' y='0' font-family='Inter' font-size='12' fill='%23555'>• Repos publics récents :</text>
+      <text x='0' y='18' font-family='Inter' font-size='12' fill='%23555'>  - galaxy-game</text>
+      <text x='0' y='36' font-family='Inter' font-size='12' fill='%23555'>  - ticket-app</text>
+      <text x='0' y='54' font-family='Inter' font-size='12' fill='%23555'>  - simulate-typing</text>
+      <text x='0' y='78' font-family='Inter' font-size='11' fill='%23555'>Certifications & profil : LinkedIn (OpenClassrooms)</text>
+    </g>
+  </svg>" style="margin:6px;" />
+</p>
 
 ---
 
-## 📫 Contact
-- ✉️ nahim.salami@ahime.net  
-- 🌐 https://ahime.net · https://github.com/nahim-salami · https://linkedin.com/in/nahimsalami  
-- 📍 Abomey-Calavi, Bénin
+<!-- ROW 3 : Work style | Process | CTA/Links (3 cards) -->
+<p align="center">
+  <img alt="Card - Méthode" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='36' font-family='Inter, Roboto' font-weight='700' font-size='16' fill='%230b1b2b'>Méthode de travail</text>
+    <text x='22' y='60' font-family='Inter' font-size='12' fill='%23555'>1) Product discovery & MVP</text>
+    <text x='22' y='78' font-family='Inter' font-size='12' fill='%23555'>2) Tests automatisés & CI</text>
+    <text x='22' y='96' font-family='Inter' font-size='12' fill='%23555'>3) Monitoring & scalabilité</text>
+    <g transform='translate(240,72)'>
+      <circle cx='24' cy='24' r='20' fill='%23f0f6ff' stroke='%230b72ff' />
+      <text x='24' y='28' text-anchor='middle' font-family='Inter' font-weight='700' font-size='12' fill='%230b72ff'>Agile</text>
+    </g>
+  </svg>" style="margin:6px;" />
+  <img alt="Card - Outils CI" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='36' font-family='Inter, Roboto' font-weight='700' font-size='16' fill='%230b1b2b'>CI / Déploiement</text>
+    <text x='22' y='60' font-family='Inter' font-size='12' fill='%23555'>GitHub Actions · Docker · Kubernetes</text>
+    <text x='22' y='78' font-family='Inter' font-size='12' fill='%23555'>Azure & AWS pour production</text>
+    <g transform='translate(22,100)'>
+      <rect x='0' y='0' width='316' height='8' rx='4' fill='%23f0f6ff' />
+      <rect x='0' y='0' width='220' height='8' rx='4' fill='%2328c76f'>
+        <animate attributeName='width' values='0;220;220' dur='2.8s' repeatCount='indefinite' />
+      </rect>
+    </g>
+  </svg>" style="margin:6px;" />
+  <img alt="Card - Liens" src="data:image/svg+xml;utf8,
+  <svg xmlns='http://www.w3.org/2000/svg' width='360' height='160' viewBox='0 0 360 160'>
+    <rect rx='12' ry='12' width='100%' height='100%' fill='%23ffffff' stroke='%23e6eef8' />
+    <text x='22' y='36' font-family='Inter, Roboto' font-weight='700' font-size='16' fill='%230b1b2b'>Liens rapides</text>
+    <a href='https://formigo.ahime.net'><text x='22' y='62' font-family='Inter' font-size='12' fill='%23286cfe'>Formigo — formigo.ahime.net</text></a>
+    <a href='https://configurator3d.ahime.net'><text x='22' y='86' font-family='Inter' font-size='12' fill='%23286cfe'>Configurator3D — configurator3d.ahime.net</text></a>
+    <a href='https://atime-lake.vercel.app'><text x='22' y='110' font-family='Inter' font-size='12' fill='%23286cfe'>Atime — atime-lake.vercel.app</text></a>
+  </svg>" style="margin:6px;" />
+</p>
 
 ---
 
-> *Si tu veux que j’ajoute :*  
-> - un **GIF animé personnalisé** (ex : une démo courte de Configurator3D) et le pousse dans `assets/` ;  
-> - un **workflow GitHub** pour générer automatiquement des GIF/PNG (je l’ai déjà préparé si tu veux) ;  
-> - une **version anglaise** du README — dis-le et je la fournis tout de suite.
+<!-- GITHUB WIDGETS row -->
+<p align="center">
+  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=nahim-salami&show_icons=true&theme=github_dark&count_private=true" />
+  &nbsp;
+  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahim-salami&layout=compact&theme=github_dark" />
+</p>

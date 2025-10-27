@@ -1,0 +1,16 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="600" viewBox="0 0 1080 600">
+      <style>
+        <![CDATA[
+          .card-bg { fill: #ffffff; stroke: #e6eef8; stroke-width: 1; rx: 20; }
+          .title { font: 700 34px/1.1 Inter, Roboto, Arial; fill: #0b1b2b; }
+          .subtitle { font: 400 18px/1.2 Inter, Roboto, Arial; fill: #555555; }
+          .item { font: 400 16px/1.3 Inter, Roboto, Arial; fill: #555555; }
+          .btn { font: 600 14px Inter, Roboto; fill: #fff; }
+        ]]>
+      </style>
+      <rect x="8" y="8" width="1064" height="584" rx="20" class="card-bg" />
+  
+      <text x="60" y="120" class="title">Projets & plateformes</text>
+      <text x="60" y="150" class="item">• Window3D — https://window3d.ahime.net</text><text x="60" y="184" class="item">• Chair3D — https://chair3d.ahime.net</text><text x="60" y="218" class="item">• Galaxy Game (repo) — https://github.com/nahim-salami/galaxy-game</text><text x="60" y="252" class="item">• Neon Product Designer — https://neonstore.be/neon-designer/</text>
+    </svg>

@@ -10,8 +10,8 @@
 </a>
 
 <p>
-🇫🇷 <b>CEO & fondateur d'<a href="https://ahime.net">Ahime</a></b> · Software Architect · Team Leader. <b>7+ ans</b> à concevoir et déployer des produits SaaS complets — du point de vente à l'immobilier — pour le marché africain francophone.<br/>
-🇬🇧 <b>CEO & founder of Ahime</b> · Software Architect · 7+ years designing &amp; shipping full-stack SaaS products end-to-end for the French-speaking African market.
+<b>FR ·</b> <b>CEO & fondateur d'<a href="https://ahime.net">Ahime</a></b> · Software Architect · Team Leader. <b>7+ ans</b> à concevoir et déployer des produits SaaS complets — du point de vente à l'immobilier — pour le marché africain francophone.<br/>
+<b>EN ·</b> <b>CEO & founder of Ahime</b> · Software Architect · 7+ years designing &amp; shipping full-stack SaaS products end-to-end for the French-speaking African market.
 </p>
 
 <!-- Contact -->
@@ -89,8 +89,8 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nahim-salami&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahim-salami&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="top langs"/>
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nahim-salami&theme=tokyonight" alt="stats"/>
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nahim-salami&theme=tokyonight" alt="top langs"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=nahim-salami&hide_border=true&theme=tokyonight" alt="streak"/>
 

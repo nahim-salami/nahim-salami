@@ -1,17 +1,17 @@
 <!-- ============================ HEADER ============================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f81f7,50:8957e5,100:3fb950&height=200&section=header&text=Nahim%20SALAMI&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38" width="100%" alt="banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,50:8B5CF6,100:EC4899&height=200&section=header&text=Nahim%20SALAMI&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38" width="100%" alt="banner"/>
 
 <img src="https://github.com/nahim-salami.png" width="120" alt="Nahim Salami" style="border-radius:50%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&center=true&vCenter=true&width=640&color=2F81F7&lines=CEO+%26+fondateur+d%27Ahime;Software+Architect+%C2%B7+Full-stack+%C2%B7+Team+Leader;7%2B+ans+%C2%B7+React+%C2%B7+Laravel+%C2%B7+Flutter+%C2%B7+Three.js;Je+construis+des+produits%2C+pas+des+d%C3%A9mos." alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&center=true&vCenter=true&width=640&color=8B5CF6&lines=CEO+%26+fondateur+d%27Ahime;Software+Architect+%C2%B7+Full-stack+%C2%B7+Team+Leader;8%2B+ans+%C2%B7+React+%C2%B7+Laravel+%C2%B7+Flutter+%C2%B7+Three.js;Je+construis+des+produits%2C+pas+des+d%C3%A9mos." alt="Typing SVG"/>
 </a>
 
 <p>
-<b>FR ·</b> <b>CEO & fondateur d'<a href="https://ahime.net">Ahime</a></b> · Software Architect · Team Leader. <b>7+ ans</b> à concevoir et déployer des produits SaaS complets — du point de vente à l'immobilier — pour le marché africain francophone.<br/>
-<b>EN ·</b> <b>CEO & founder of Ahime</b> · Software Architect · 7+ years designing &amp; shipping full-stack SaaS products end-to-end for the French-speaking African market.
+<b>FR ·</b> <b>CEO & fondateur d'<a href="https://ahime.net">Ahime</a></b> · Software Architect · Team Leader. <b>8+ ans</b> à concevoir et déployer des produits SaaS complets — du point de vente à l'immobilier — pour le marché africain francophone.<br/>
+<b>EN ·</b> <b>CEO & founder of Ahime</b> · Software Architect · 8+ years designing &amp; shipping full-stack SaaS products end-to-end for the French-speaking African market.
 </p>
 
 <!-- Contact -->
@@ -103,6 +103,6 @@
 
 💬 *Ouvert aux opportunités freelance & collaborations SaaS — Open to freelance & SaaS collaborations.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,50:8957e5,100:2f81f7&height=120&section=footer" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,50:8B5CF6,100:3B82F6&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>

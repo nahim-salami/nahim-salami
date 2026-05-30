@@ -1,9 +1,9 @@
 <!-- ============================ HEADER ============================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,50:8B5CF6,100:EC4899&height=200&section=header&text=Nahim%20SALAMI&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38" width="100%" alt="banner"/>
-
 <img src="https://github.com/nahim-salami.png" width="120" alt="Nahim Salami" style="border-radius:50%"/>
+
+# Nahim SALAMI
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&center=true&vCenter=true&width=640&color=8B5CF6&lines=CEO+%26+fondateur+d%27Ahime;Software+Architect+%C2%B7+Full-stack+%C2%B7+Team+Leader;8%2B+ans+%C2%B7+React+%C2%B7+Laravel+%C2%B7+Flutter+%C2%B7+Three.js;Je+construis+des+produits%2C+pas+des+d%C3%A9mos." alt="Typing SVG"/>
@@ -102,7 +102,5 @@
 <div align="center">
 
 💬 *Ouvert aux opportunités freelance & collaborations SaaS — Open to freelance & SaaS collaborations.*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC4899,50:8B5CF6,100:3B82F6&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>

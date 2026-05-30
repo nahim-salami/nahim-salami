@@ -1,136 +1,108 @@
-# 👋 Hello, I'm **Nahim Salami**
+<!-- ============================ HEADER ============================ -->
+<div align="center">
 
-## 🚀 CEO · Software Architect · Full Stack · Team Leader
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f81f7,50:8957e5,100:3fb950&height=200&section=header&text=Nahim%20SALAMI&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38" width="100%" alt="banner"/>
 
-Bienvenue sur mon GitHub ! Je conçois des produits web & mobile depuis plus de **7 ans** : architecture, équipes, SaaS et configurateurs 3D.  
-En tant que **CEO de [Ahime](https://ahime.net)**, j’allie leadership, innovation et expertise technique pour livrer des solutions robustes, évolutives et centrées utilisateur.
+<img src="https://github.com/nahim-salami.png" width="120" alt="Nahim Salami" style="border-radius:50%"/>
 
----
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&center=true&vCenter=true&width=640&color=2F81F7&lines=CEO+%26+fondateur+d%27Ahime;Software+Architect+%C2%B7+Full-stack+%C2%B7+Team+Leader;7%2B+ans+%C2%B7+React+%C2%B7+Laravel+%C2%B7+Flutter+%C2%B7+Three.js;Je+construis+des+produits%2C+pas+des+d%C3%A9mos." alt="Typing SVG"/>
+</a>
 
-## 🔗 Sites principaux
-[![Formigo](https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=react)](https://formigo.ahime.net)  
-[![Configurator3D](https://img.shields.io/badge/-Configurator3D-6C63FF?style=flat-square)](https://configurator3d.ahime.net)  
-[![Atime](https://img.shields.io/badge/-Atime-00AEEF?style=flat-square)](https://atime-lake.vercel.app/)  
-[![Kkivo](https://img.shields.io/badge/-Kkivo-FB8C00?style=flat-square)](https://github.com/nahim-salami) <!-- ajouter URL publique si disponible -->
-[![Ahime](https://img.shields.io/badge/-Ahime.net-000000?style=flat-square)](https://ahime.net)
+<p>
+🇫🇷 <b>CEO & fondateur d'<a href="https://ahime.net">Ahime</a></b> · Software Architect · Team Leader. <b>7+ ans</b> à concevoir et déployer des produits SaaS complets — du point de vente à l'immobilier — pour le marché africain francophone.<br/>
+🇬🇧 <b>CEO & founder of Ahime</b> · Software Architect · 7+ years designing &amp; shipping full-stack SaaS products end-to-end for the French-speaking African market.
+</p>
 
----
+<!-- Contact -->
+<a href="mailto:nahim.salami@ahime.net"><img src="https://img.shields.io/badge/nahim.salami@ahime.net-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
+<a href="mailto:nahim.salami@outlook.fr"><img src="https://img.shields.io/badge/nahim.salami@outlook.fr-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="outlook"/></a>
+<img src="https://img.shields.io/badge/+229%2001%2052%2053%2037%2092-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="phone"/>
+<a href="https://www.linkedin.com/in/nahimsalami/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+<img src="https://img.shields.io/badge/B%C3%A9nin-008751?style=for-the-badge&logo=googlemaps&logoColor=white" alt="location"/>
 
-## 🛠️ Tech Stack & Expertise
+</div>
 
-### 💻 Langages & Outils
-- **Languages**: PHP, JavaScript (ES6+), Node.js, C#, C++, SQL  
-- **Frontend**: Vue.js, React.js, AngularJS, jQuery, Bootstrap  
-- **Backend**: Laravel, Symfony, ASP.NET Core, Express.js  
-- **3D / Visualisation**: Three.js, Fabric.js, D3.js, Blender, Autodesk Maya  
-- **Systèmes & Déploiement**: Docker, Kubernetes, GitHub Actions, GitLab CI/CD  
-- **Cloud**: Azure, AWS  
-- **CMS**: WordPress (plugins custom), PrestaShop
+<br/>
 
-### ⚙️ Compétences transversales
-- Architecture microservices  
-- Sécurité applicative (audit & corrections)  
-- Management d’équipes pluridisciplinaires (jusqu'à 12 pers.)  
-- Méthodologies Agile (Scrum, Kanban, Jira)  
-- Recherche & veille technologique
+<!-- ============================ FEATURED ============================ -->
+## ⭐ Projets phares · Featured projects
 
----
+> 6 produits **en production**, déployés sur leur propre domaine.
 
-## 🔭 Projets & Démos (fusion complète)
+| Projet | Description | Stack | Live |
+|--------|-------------|-------|:----:|
+| 🏪 **Su** | POS + ERP multi-plateforme **offline-first** pour commerces. Conformité fiscale e-MECeF, multi-boutiques, Mobile Money. | `Flutter` `Laravel 11` `PostgreSQL` `Redis` | [🌐](https://su.ahime.net) |
+| 🏠 **IMO Benin** | Plateforme immobilière conforme à la **loi 2022-30** : baux, loyers, KYC, parts fractionnées, services SBEE/SONEB. | `React` `Flutter` `Laravel 11` `KKiaPay` | [🌐](https://imo.ahime.net) |
+| ✅ **Hin** | **Gestion de tâches** (alternative Asana/ClickUp/Trello, moins chère). **Web · Desktop · iOS · Android · extension**, avec IA Gemini. | `React` `Tauri` `Capacitor` `Laravel` `Gemini` | [🌐](https://hin.ahime.net) |
+| 📦 **Porto-Market** | Gestion de commandes **multi-rôles** (client, acheteur, livreur, manager) avec chatbot IA Gemini. | `React 19` `Laravel 12` `Sanctum` `Gemini` | [🌐](https://buy.ahime.net) |
+| 🤝 **LiFAC** | Plateforme de **dons** & gestion d'événements pour une ONG. Paiements Mobile Money via FedaPay. | `Next.js 15` `Prisma 6` `PostgreSQL` `FedaPay` | [🌐](https://lifac.ahime.net) |
+| 🛢️ **Tank Configurator** | Configurateur **3D** de cuves industrielles (calcul & visualisation). Client : **Ziemann-Holvrieka 🇩🇪**. | `React` `Node.js` `Three.js` | [🌐](http://tank-config.ziemann-holvrieka.com) |
+| 🧊 **OmniScan3D** | **Scan 3D** propulsé par IA pour la reconstruction & l'analyse d'objets. | `React` `Three.js` `Gemini` `Express` | [🌐](https://omniscan.ahime.net) |
 
-### 🌐 Plateformes & SaaS
-- **Formigo** — https://formigo.ahime.net  
-  *Plateforme de formation : inscription 100% gratuite, création & suivi de formations (payantes ou non).*
-- **app.ahime.net** — Plateforme automatisée pour créer un site WordPress gratuitement (hébergement + sous-domaine).  
-- **Configurator3D (SaaS)** — https://configurator3d.ahime.net  
-  *Créer, publier et intégrer un configurateur 3D où vous voulez.*
-- **Atime (location)** — https://atime-lake.vercel.app/  
-- **Kkivo** — ERP + eCommerce + eLearning (paiements locaux) — *présentation / liens à ajouter*
+<br/>
 
-### 🎨 Configurateurs 3D (Realtime)
-- **Window3D** — https://window3d.ahime.net *(React.js, Vue.js, Node.js, MySQL, Three.js, Maya, Blender)*  
-  *Configurateur de fenêtres 3D temps réel.*
-- **Chair3D** — https://chair3d.ahime.net *(React.js, Three.js)*  
-  *Configurer des chaises en ligne, rendu 3D immersif.*
+<!-- ============================ OTHER ============================ -->
+## 🛠️ Autres projets · Other work
 
-### 🌟 Projets phares & Démos
-- **Galaxy Game** — https://github.com/nahim-salami/galaxy-game *(Public)*  
-  *Jeu interactif en JS & HTML5 Canvas.*
-- **Neon Product Designer** — https://neonstore.be/neon-designer/ *(Public)*  
-  *Configurateur graphique de produits lumineux (Vue.js + WordPress).*
+| Projet | Description | Stack | Lien |
+|--------|-------------|-------|:----:|
+| 🔌 **Figma AI Bridge** | Serveur **MCP** + plugin Figma pour piloter Figma depuis Claude / Codex. Open-source (MIT). | `TypeScript` `MCP` `WebSocket` | — |
+| 🍼 **Pacifier Chain 3D** | Configurateur **3D** SaaS multi-tenant avec génération de plugins e-commerce. | `Three.js` `Express` `Stripe` | [🌐](https://attache-tetine.ahime.net) |
+| 🎓 **E-learning IMDF** | LMS modulaire : cours, quiz, gestion instructeurs/étudiants. | `Laravel 11` `Blade` `Tailwind` | [🌐](https://imdf.co) |
+| 🎟️ **Halal Brunch** | Billetterie d'événement : **QR codes** (génération & scan), tickets par email, IA Gemini. | `React` `Vite` `Firebase` `Gemini` | [🌐](https://halal-brunch.ahime.net) |
 
-### 🧩 Plugins & Extensions WordPress
-- **Allada** *(Privé)* — Plugin de comparaison & automatisation métier  
-- **Orion Compare** *(Privé)* — Comparaison de produits
+<div align="center">
+<br/>
+<a href="https://www.ahime.net/realisations"><img src="https://img.shields.io/badge/Voir%20toutes%20mes%20r%C3%A9alisations-See%20all%20projects-2f81f7?style=for-the-badge&logo=vercel&logoColor=white" alt="voir plus"/></a>
+</div>
 
-### 🚧 Applications & Librairies
-- **My Business Center – MyBC** — https://github.com/nahim-salami/mybc-front *(Privé)*  
-  *Gestion commerciale – Vue.js, Node.js, MySQL*
-- **Ticket App** — https://github.com/nahim-salami/ticket-app *(Public)*  
-  *Application de billetterie – Laravel, Vue.js, MySQL*
-- **Easy Step Form** — https://github.com/Ahiime/EasyStepsForm *(Public)*  
-  *Plugin WordPress formulaires multi-étapes*
-- **Role-Based Pricing** — https://github.com/Ahiime/Ahime-Role-Based-Pricing *(Public)*  
-  *Tarification selon rôle utilisateur*
-- **SYSMOREC** — https://github.com/nahim-salami/SYSMOREC *(Privé)*  
-  *App mobile pour ressources communales – ASP.NET, C#*
-- **Drag On Grid** — https://github.com/nahim-salami/drag-on-grid *(Public)*  
-  *Lib JS : drag & drop sur grille*
-- **Simulate Typing** — https://github.com/nahim-salami/simulate-typing *(Public)*  
-  *Simule la frappe clavier (animations texte)*
-- **Gestio** — https://github.com/nahim-salami/Gestio *(Privé)*  
-  *Gestion d’emplois du temps — PHP, JS*
-- **IMOTECK** — https://github.com/nahim-salami/IMOTECK *(Public)*  
-  *Application immobilière de réservation*
+<br/>
 
----
+<!-- ============================ STACK ============================ -->
+## 💻 Langages & Outils · Languages & Tools
 
-## 🧭 Visual — Compétences
-<table>
-  <tr>
-    <td align="center">
-      <img alt="JS 90%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=javascript" /><div>JavaScript / Node.js</div>
-    </td>
-    <td align="center">
-      <img alt="PHP 85%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=php" /><div>PHP / Laravel / Symfony</div>
-    </td>
-    <td align="center">
-      <img alt="React 88%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=react" /><div>React / Vue / Frontend</div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img alt="Three.js 75%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=blender" /><div>3D / Three.js / Blender</div>
-    </td>
-    <td align="center">
-      <img alt="Docker 80%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=docker" /><div>Docker / K8s / DevOps</div>
-    </td>
-    <td align="center">
-      <img alt="SQL 82%" src="https://img.shields.io/badge/-Formigo-6CC24A?style=flat-square&logo=mysql" /><div>MySQL / SQL Server</div>
-    </td>
-  </tr>
-</table>
+<div align="center">
 
----
+**Langages**
 
-## 📊 GitHub & Activity
-![Nahim's GitHub stats](https://github-readme-stats.vercel.app/api?username=nahim-salami&show_icons=true&theme=radical)
+<img src="https://skillicons.dev/icons?i=ts,js,php,python,dart,java,cs,c,cpp,html,css" alt="languages"/>
 
----
+**Frontend**
 
-## 📜 Certifications
-- WordPress 6 | Vue.js | Symfony | React | PHP/MySQL  
-- Sécurité Web | SEO avancé | JS | C# | C++
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,flutter,tailwind,bootstrap,sass,threejs" alt="frontend"/>
 
-> [Voir les certificats & profil LinkedIn](https://www.linkedin.com/in/nahimsalami/)
+**Backend & Bases de données**
 
----
+<img src="https://skillicons.dev/icons?i=laravel,symfony,dotnet,nodejs,postgres,mysql,sqlite,redis,firebase,prisma" alt="backend"/>
 
-## 📫 Contact
-- ✉️ **nahim.salami@ahime.net**  
-- 📍 Abomey-Calavi, Bénin · ☎️ (+229) 01 95 14 6985  
-- 🔗 https://ahime.net · https://github.com/nahim-salami · https://linkedin.com/in/nahimsalami
+**DevOps, Cloud & Design**
 
----
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,azure,aws,git,stripe,figma,ps,ai,blender" alt="tools"/>
 
-> _“Passion. Rigueur. Impact. J'écris du code qui change les choses.”_
+</div>
+
+<br/>
+
+<!-- ============================ STATS ============================ -->
+## 📊 GitHub
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=nahim-salami&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nahim-salami&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="top langs"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=nahim-salami&hide_border=true&theme=tokyonight" alt="streak"/>
+
+</div>
+
+<br/>
+
+<!-- ============================ FOOTER ============================ -->
+<div align="center">
+
+💬 *Ouvert aux opportunités freelance & collaborations SaaS — Open to freelance & SaaS collaborations.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,50:8957e5,100:2f81f7&height=120&section=footer" width="100%" alt="footer"/>
+
+</div>

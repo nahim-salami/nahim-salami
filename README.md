@@ -28,7 +28,7 @@
 <!-- ============================ FEATURED ============================ -->
 ## ⭐ Projets phares · Featured projects
 
-> 6 produits **en production**, déployés sur leur propre domaine.
+> +40 produits **en production**, déployés sur leur propre domaine.
 
 | Projet | Description | Stack | Live |
 |--------|-------------|-------|:----:|

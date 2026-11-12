@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- Cadre « fenêtre de navigateur » rendu par src/media.mjs.
+     ?url=texte de la barre  &img=capture (statique)  &h=hauteur du contenu (animation)  &mode=frame|mask -->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; background: transparent; }
+  .win { width: 832px; border-radius: 12px; overflow: hidden; background: #17191E; position: relative; }
+  .bar { height: 38px; background: #1F2229; display: flex; align-items: center; padding: 0 14px; gap: 7px; position: relative; }
+  .bar i { width: 10px; height: 10px; border-radius: 50%; background: #454953; }
+  .url {
+    position: absolute; left: 50%; transform: translateX(-50%);
+    font: 500 12px/1 "Segoe UI", system-ui, sans-serif; color: #A9AEB8; letter-spacing: .01em;
+    background: #0E0F12; padding: 7px 16px; border-radius: 7px; white-space: nowrap;
+  }
+  .view { display: block; width: 832px; }
+  img.view { height: auto; }
+  .ring { position: absolute; inset: 0; border-radius: 12px; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .13); pointer-events: none; }
+  /* Masque : forme pleine blanche, pour arrondir les coins d'une animation */
+  .mask .win { background: #fff; }
+  .mask .bar, .mask .ring { visibility: hidden; }
+</style>
+</head>
+<body>
+<div class="win" id="win">
+  <div class="bar"><i></i><i></i><i></i><span class="url" id="url"></span></div>
+  <div class="ring"></div>
+</div>
+<script>
+  const q = new URLSearchParams(location.search);
+  document.getElementById('url').textContent = q.get('url') || '';
+  if (q.get('mode') === 'mask') document.body.className = 'mask';
+  const win = document.getElementById('win');
+  let view;
+  if (q.get('img')) { view = new Image(); view.src = q.get('img'); }
+  else {
+    // Animation : la zone de contenu reste transparente, la vidéo passe dessous.
+    view = document.createElement('div');
+    view.style.height = q.get('h') + 'px';
+    if (q.get('mode') !== 'mask') win.style.background = 'transparent';
+  }
+  view.className = 'view';
+  win.insertBefore(view, win.querySelector('.ring'));
+</script>
+</body>
+</html>

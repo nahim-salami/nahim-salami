@@ -1,106 +1,128 @@
-<!-- ============================ HEADER ============================ -->
-<div align="center">
+<!-- Fichier généré par src/build.mjs. Modifier src/data.mjs puis lancer `npm run build`. -->
 
-<img src="https://github.com/nahim-salami.png" width="120" alt="Nahim Salami" style="border-radius:50%"/>
+<p align="right"><sub><b>Français</b> &nbsp;·&nbsp; <a href="README.en.md">English</a></sub></p>
 
-# Nahim SALAMI
+<p align="center"><a href="https://ahime.net"><img src="assets/banner.fr.svg" width="832" alt="Nahim Salami — Software Architect, CEO et fondateur d'Ahime. Configurateurs 2D/3D, SaaS et applications mobiles. Cotonou, Bénin."></a></p>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&center=true&vCenter=true&width=640&color=8B5CF6&lines=CEO+%26+fondateur+d%27Ahime;Software+Architect+%C2%B7+Full-stack+%C2%B7+Team+Leader;8%2B+ans+%C2%B7+React+%C2%B7+Laravel+%C2%B7+Flutter+%C2%B7+Three.js;Je+construis+des+produits%2C+pas+des+d%C3%A9mos." alt="Typing SVG"/>
-</a>
+Architecte logiciel et fondateur d'<a href="https://ahime.net">Ahime</a>, studio basé à Cotonou. Depuis plus de huit ans, je conçois et je livre des produits complets, de la base de données à l'application publiée sur le store : configurateurs 2D/3D pour les fabricants sur mesure, logiciels de caisse et de gestion, agents WhatsApp et applications mobiles, pour l'Afrique de l'Ouest et l'Europe.
 
-<p>
-<b>FR ·</b> <b>CEO & fondateur d'<a href="https://ahime.net">Ahime</a></b> · Software Architect · Team Leader. <b>8+ ans</b> à concevoir et déployer des produits SaaS complets — du point de vente à l'immobilier — pour le marché africain francophone.<br/>
-<b>EN ·</b> <b>CEO & founder of Ahime</b> · Software Architect · 8+ years designing &amp; shipping full-stack SaaS products end-to-end for the French-speaking African market.
+<p><a href="mailto:nahim.salami@ahime.net"><img src="assets/btn-contact-mail.fr.svg" width="106" height="38" alt="M'écrire"></a> <a href="https://www.linkedin.com/in/nahimsalami/"><img src="assets/btn-contact-linkedin.fr.svg" width="108" height="38" alt="LinkedIn"></a> <a href="https://wa.me/2290152533792"><img src="assets/btn-contact-whatsapp.fr.svg" width="122" height="38" alt="WhatsApp"></a> <a href="https://x.com/salami_nahim"><img src="assets/btn-contact-x.fr.svg" width="174" height="38" alt="X · @salami_nahim"></a> <a href="https://ahime.net"><img src="assets/btn-contact-ahime.fr.svg" width="119" height="38" alt="ahime.net"></a></p>
+
+## Projets phares
+
+### Mesura
+
+**Configurateur 2D/3D en marque blanche pour les fabricants sur mesure**
+
+<p><a href="https://mesura.ahime.net/configurateur"><img src="assets/media/mesura.webp" width="832" alt="Démo animée de Mesura : une fenêtre deux vantaux configurée en 2D puis en 3D, avec le prix mis à jour"></a></p>
+
+Menuisiers, storistes, agenceurs : leurs clients composent le produit eux-mêmes, voient le dessin coté et la vue 3D, et le prix est calculé au centime avec les règles du fabricant. Le devis approuvé devient commande, fiche d'atelier, puis facture.
+
+- 40 familles de produits : fenêtres, portes, volets, portails, pergolas, meubles, photovoltaïque
+- Un seul moteur pour le dessin 2D, la géométrie 3D, les règles de fabrication et le prix, recalculé côté serveur
+- Web component embarquable, extension WooCommerce, calcul possible hors ligne
+
+`TypeScript` `React 18` `Three.js` `PHP` `WooCommerce`
+
+<p><a href="https://mesura.ahime.net/produit"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a> <a href="https://mesura.ahime.net/configurateur"><img src="assets/btn-demo.fr.svg" width="158" height="38" alt="Essayer la démo"></a></p>
+
+<br>
+
+### Neon Light Configurator
+
+**Extension WooCommerce pour vendre des enseignes néon sur mesure, sans devis**
+
+<p><a href="https://neon-light.ahime.net/demo"><img src="assets/media/neon-light.webp" width="832" alt="Démo animée de Neon Light : le texte « Café Lumière » change de police et de couleur, le prix suit"></a></p>
+
+Le client écrit son texte, choisit la police, la couleur et la taille, et voit son enseigne s'allumer en 2D et en 3D. Le prix suit la longueur de tube réellement mesurée sur le tracé des lettres, puis il est recalculé sur le serveur avant l'ajout au panier.
+
+- Trois produits, trois moteurs de calcul : néons LED, panneaux découpés, caissons lumineux
+- 12 interfaces, 5 thèmes complets et 33 polices pré-mesurées
+- Configurateurs d'enseignes livrés à sept boutiques en Belgique, en Suisse, aux Pays-Bas et en France
+
+`PHP` `WordPress` `WooCommerce` `JavaScript` `Three.js`
+
+<p><a href="https://neon-light.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a> <a href="https://neon-light.ahime.net/demo"><img src="assets/btn-demo.fr.svg" width="158" height="38" alt="Essayer la démo"></a></p>
+
+<br>
+
+### Wézon
+
+**Agent WhatsApp pour les commerçants, avec paiement Mobile Money**
+
+<p><a href="https://wezon.ahime.net/"><img src="assets/media/wezon.webp" width="832" alt="Page d'accueil de Wézon : « Votre boutique répond toute seule », avec une conversation WhatsApp sur téléphone"></a></p>
+
+Un agent WhatsApp qui répond aux clients jour et nuit, prend les commandes et encaisse par Mobile Money. Le commerçant suit ses messages, ses commandes et ses encaissements depuis un tableau de bord web et une application Android.
+
+- Catalogue, commande et paiement sans quitter la conversation WhatsApp
+- Deux offres : menu à boutons, ou agent IA qui passe la main au commerçant dès qu'une demande sort de son rôle
+- Marché public des boutiques, avec une fiche trouvable par les assistants IA
+
+`TypeScript` `React` `Hono` `PostgreSQL` `Flutter` `KKiaPay`
+
+<p><a href="https://wezon.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a></p>
+
+<br>
+
+### Su POS
+
+**Caisse, stock et facturation normalisée, même hors connexion**
+
+<p><a href="https://su.ahime.net/"><img src="assets/media/su.webp" width="832" alt="Page d'accueil de Su POS : « La caisse qui tient boutique avec vous », avec une facture normalisée"></a></p>
+
+Logiciel de caisse conçu au Bénin : encaissement, stock et factures normalisées e-MECeF, même quand la connexion tombe. Un serveur local relie les postes de la boutique, et tout se synchronise avec le cloud dès que le réseau revient.
+
+- Offline-first : données chiffrées sur place, synchronisation dès le retour du réseau
+- 17 métiers couverts : boutique, restaurant, salon, hôtel, garage, école, distribution
+- Windows, Android et Linux, abonnement payé par Mobile Money
+
+`Flutter` `Dart` `Laravel` `PostgreSQL` `Redis`
+
+<p><a href="https://su.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a></p>
+
+<br>
+
+### Hin
+
+**Espace de travail pour les équipes : tâches, CRM, documents**
+
+<p><a href="https://hin.ahime.net/"><img src="assets/media/hin.webp" width="832" alt="Page d'accueil de Hin : « Le Work OS qui réunit votre équipe »"></a></p>
+
+Tâches, documents, CRM, réunions et tableau blanc au même endroit, avec génération de tâches par IA. Une alternative abordable à Asana, ClickUp et Trello, disponible sur le web, macOS, Windows, Linux, iOS, Android et en extension Chrome.
+
+- 8 vues : liste, board, calendrier, Gantt, timeline, charge, Eisenhower, tableau
+- Tableaux de bord : burndown, vélocité, charge de l'équipe
+- Sécurité : double authentification, journal d'audit, 13 rôles
+
+`React` `Tauri` `Capacitor` `Laravel` `Gemini`
+
+<p><a href="https://hin.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a></p>
+
+## Autres réalisations
+
+Une sélection parmi plus de quarante produits en production.
+
+<p align="center">
+  <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.fr.svg" width="414" alt="WiFiTche — Vente d'accès Wi-Fi par routeurs MikroTik, payée en Mobile Money. Applications client, gérant et technicien."></a>
+  <a href="https://imo.ahime.net/"><img src="assets/card-imo.fr.svg" width="414" alt="IMO Bénin — Location immobilière conforme à la loi 2022-30 : baux, loyers, KYC, services SBEE et SONEB."></a>
+  <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.fr.svg" width="414" alt="Tank Configurator — Configurateur de cuves industrielles pour Ziemann Holvrieka (Allemagne) : géométrie, volume et plan coté."></a>
+  <a href="https://omniscan.ahime.net/"><img src="assets/card-omniscan.fr.svg" width="414" alt="OmniScan3D — Scan 3D assisté par IA : reconstruction d'objets, analyse et export multi-format."></a>
+  <a href="https://lifac.ahime.net/"><img src="assets/card-lifac.fr.svg" width="414" alt="LiFAC — Site, dons et gestion d'événements d'une ONG, avec paiement Mobile Money."></a>
+  <a href="https://imdf.co/"><img src="assets/card-imdf.fr.svg" width="414" alt="E-learning IMDF — Plateforme de formation en ligne : parcours, cours, quiz et suivi des apprenants."></a>
 </p>
 
-<!-- Contact -->
-<a href="mailto:nahim.salami@ahime.net"><img src="https://img.shields.io/badge/nahim.salami@ahime.net-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
-<a href="mailto:nahim.salami@outlook.fr"><img src="https://img.shields.io/badge/nahim.salami@outlook.fr-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="outlook"/></a>
-<img src="https://img.shields.io/badge/+229%2001%2052%2053%2037%2092-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="phone"/>
-<a href="https://www.linkedin.com/in/nahimsalami/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-<img src="https://img.shields.io/badge/B%C3%A9nin-008751?style=for-the-badge&logo=googlemaps&logoColor=white" alt="location"/>
+<b>Et aussi :</b> <a href="https://github.com/nahim-salami/ajo-releases/releases">Ajo</a>, épargne par objectifs sur Android · Figma AI Bridge, serveur MCP et plugin pour piloter Figma depuis un assistant IA (open source, MIT) · boutiques en ligne et configurateurs pour des clients en Belgique, en Suisse, aux Pays-Bas, au Royaume-Uni et au Canada.
 
-</div>
+## Stack
 
-<br/>
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,php,python,dart,java,cs,cpp,react,nextjs,vue,flutter,tailwind,threejs,laravel,symfony,dotnet,nodejs,postgres,mysql,redis,firebase,prisma,docker,kubernetes,azure,aws,figma&theme=dark&perline=10" alt="ts, js, php, python, dart, java, cs, cpp, react, nextjs, vue, flutter, tailwind, threejs, laravel, symfony, dotnet, nodejs, postgres, mysql, redis, firebase, prisma, docker, kubernetes, azure, aws, figma">
+</p>
 
-<!-- ============================ FEATURED ============================ -->
-## ⭐ Projets phares · Featured projects
+## Contact
 
-> +40 produits **en production**, déployés sur leur propre domaine.
+Un produit à concevoir, un configurateur à intégrer, une application à livrer ? Je réponds sous 24 h, en français ou en anglais.
 
-| Projet | Description | Stack | Live |
-|--------|-------------|-------|:----:|
-| 🏪 **Su** | POS + ERP multi-plateforme **offline-first** pour commerces. Conformité fiscale e-MECeF, multi-boutiques, Mobile Money. | `Flutter` `Laravel 11` `PostgreSQL` `Redis` | [🌐](https://su.ahime.net) |
-| 🏠 **IMO Benin** | Plateforme immobilière conforme à la **loi 2022-30** : baux, loyers, KYC, parts fractionnées, services SBEE/SONEB. | `React` `Flutter` `Laravel 11` `KKiaPay` | [🌐](https://imo.ahime.net) |
-| ✅ **Hin** | **Gestion de tâches** (alternative Asana/ClickUp/Trello, moins chère). **Web · Desktop · iOS · Android · extension**, avec IA Gemini. | `React` `Tauri` `Capacitor` `Laravel` `Gemini` | [🌐](https://hin.ahime.net) |
-| 📦 **Porto-Market** | Gestion de commandes **multi-rôles** (client, acheteur, livreur, manager) avec chatbot IA Gemini. | `React 19` `Laravel 12` `Sanctum` `Gemini` | [🌐](https://buy.ahime.net) |
-| 🤝 **LiFAC** | Plateforme de **dons** & gestion d'événements pour une ONG. Paiements Mobile Money via FedaPay. | `Next.js 15` `Prisma 6` `PostgreSQL` `FedaPay` | [🌐](https://lifac.ahime.net) |
-| 🛢️ **Tank Configurator** | Configurateur **3D** de cuves industrielles (calcul & visualisation). Client : **Ziemann-Holvrieka 🇩🇪**. | `React` `Node.js` `Three.js` | [🌐](http://tank-config.ziemann-holvrieka.com) |
-| 🧊 **OmniScan3D** | **Scan 3D** propulsé par IA pour la reconstruction & l'analyse d'objets. | `React` `Three.js` `Gemini` `Express` | [🌐](https://omniscan.ahime.net) |
+<p><a href="mailto:nahim.salami@ahime.net"><img src="assets/btn-contact-mail.fr.svg" width="106" height="38" alt="M'écrire"></a> <a href="https://www.linkedin.com/in/nahimsalami/"><img src="assets/btn-contact-linkedin.fr.svg" width="108" height="38" alt="LinkedIn"></a> <a href="https://wa.me/2290152533792"><img src="assets/btn-contact-whatsapp.fr.svg" width="122" height="38" alt="WhatsApp"></a> <a href="https://x.com/salami_nahim"><img src="assets/btn-contact-x.fr.svg" width="174" height="38" alt="X · @salami_nahim"></a> <a href="https://ahime.net"><img src="assets/btn-contact-ahime.fr.svg" width="119" height="38" alt="ahime.net"></a></p>
 
-<br/>
-
-<!-- ============================ OTHER ============================ -->
-## 🛠️ Autres projets · Other work
-
-| Projet | Description | Stack | Lien |
-|--------|-------------|-------|:----:|
-| 🔌 **Figma AI Bridge** | Serveur **MCP** + plugin Figma pour piloter Figma depuis Claude / Codex. Open-source (MIT). | `TypeScript` `MCP` `WebSocket` | — |
-| 🍼 **Pacifier Chain 3D** | Configurateur **3D** SaaS multi-tenant avec génération de plugins e-commerce. | `Three.js` `Express` `Stripe` | [🌐](https://attache-tetine.ahime.net) |
-| 🎓 **E-learning IMDF** | LMS modulaire : cours, quiz, gestion instructeurs/étudiants. | `Laravel 11` `Blade` `Tailwind` | [🌐](https://imdf.co) |
-| 🎟️ **Halal Brunch** | Billetterie d'événement : **QR codes** (génération & scan), tickets par email, IA Gemini. | `React` `Vite` `Firebase` `Gemini` | [🌐](https://halal-brunch.ahime.net) |
-
-<div align="center">
-<br/>
-<a href="https://www.ahime.net/realisations"><img src="https://img.shields.io/badge/Voir%20toutes%20mes%20r%C3%A9alisations-See%20all%20projects-2f81f7?style=for-the-badge&logo=vercel&logoColor=white" alt="voir plus"/></a>
-</div>
-
-<br/>
-
-<!-- ============================ STACK ============================ -->
-## 💻 Langages & Outils · Languages & Tools
-
-<div align="center">
-
-**Langages**
-
-<img src="https://skillicons.dev/icons?i=ts,js,php,python,dart,java,cs,c,cpp,html,css" alt="languages"/>
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,flutter,tailwind,bootstrap,sass,threejs" alt="frontend"/>
-
-**Backend & Bases de données**
-
-<img src="https://skillicons.dev/icons?i=laravel,symfony,dotnet,nodejs,postgres,mysql,sqlite,redis,firebase,prisma" alt="backend"/>
-
-**DevOps, Cloud & Design**
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,azure,aws,git,stripe,figma,ps,ai,blender" alt="tools"/>
-
-</div>
-
-<br/>
-
-<!-- ============================ STATS ============================ -->
-## 📊 GitHub
-
-<div align="center">
-
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nahim-salami&theme=tokyonight" alt="stats"/>
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nahim-salami&theme=tokyonight" alt="top langs"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nahim-salami&hide_border=true&theme=tokyonight" alt="streak"/>
-
-</div>
-
-<br/>
-
-<!-- ============================ FOOTER ============================ -->
-<div align="center">
-
-💬 *Ouvert aux opportunités freelance & collaborations SaaS — Open to freelance & SaaS collaborations.*
-
-</div>
+<p><sub>README généré par <code>src/build.mjs</code> · captures et démos issues des produits en ligne.</sub></p>

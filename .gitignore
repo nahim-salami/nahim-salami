@@ -1,3 +1,9 @@
 node_modules/
 .vscode/
 .DS_Store
+preview.html
+.claude/
+# Sources de travail : captures brutes et vidéos (régénérables)
+media/shots/
+media/src/
+media/tmp/

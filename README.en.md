@@ -10,6 +10,42 @@ Software architect and founder of <a href="https://ahime.net">Ahime</a>, a studi
 
 ## Featured projects
 
+### Douke
+
+**Prospecting agent for freelancers and small businesses**
+
+<p><a href="https://entree.douke.ahime.net/demonstration"><img src="assets/media/douke.webp" width="832" alt="Douke intro film (in French): on Monday you describe your trade, Douke finds companies, writes to each one, you approve, they reply, then the weekly figures"></a></p>
+
+Douke looks for the companies that need you, writes each one a message in your name and follows up. Nothing is sent without your approval: you review, edit or reject. It then prepares the meeting, the quote, the invoice and the review request, and shows the real figures of the week every Monday.
+
+- A message written for each company, with the reason to contact it now: no website, hiring, recently opened
+- Built-in limits: 20 messages a day at most, two follow-ups, then Douke stops
+- Three plans (Solo, Local, Pro): a subscription and a capped share of the sales it brings; results of every account published, zeros included
+
+`Python` `SQLite` `Cloudflare Workers` `D1` `Claude API`
+
+<p><a href="https://douke.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a> <a href="https://entree.douke.ahime.net/demonstration"><img src="assets/btn-demo.en.svg" width="137" height="38" alt="Try the demo"></a></p>
+
+<br>
+
+### Wézon
+
+**WhatsApp agent for shopkeepers, with Mobile Money payment**
+
+<p><a href="https://wezon.ahime.net/"><img src="assets/media/wezon.webp" width="832" alt="Wézon home page: &quot;Your shop answers by itself&quot;, with a WhatsApp conversation on a phone"></a></p>
+
+A WhatsApp agent that answers customers day and night, takes orders and collects payment by Mobile Money. The shopkeeper follows messages, orders and takings from a web dashboard and an Android app.
+
+- Catalogue, order and payment without leaving the WhatsApp conversation
+- Two plans: a button menu, or an AI agent that hands over to the shopkeeper when a request is outside its role
+- Public marketplace of shops, each with a page AI assistants can find
+
+`TypeScript` `React` `Hono` `PostgreSQL` `Flutter` `KKiaPay`
+
+<p><a href="https://wezon.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
+
+<br>
+
 ### Mesura
 
 **White-label 2D/3D configurator for made-to-measure manufacturers**
@@ -46,21 +82,21 @@ The customer types their text, picks the font, colour and size, and watches the 
 
 <br>
 
-### Wézon
+### IMDF
 
-**WhatsApp agent for shopkeepers, with Mobile Money payment**
+**E-learning platform of the Institut des Métiers du Digital et du Freelancing**
 
-<p><a href="https://wezon.ahime.net/"><img src="assets/media/wezon.webp" width="832" alt="Wézon home page: &quot;Your shop answers by itself&quot;, with a WhatsApp conversation on a phone"></a></p>
+<p><a href="https://imdf.co/"><img src="assets/media/imdf.webp" width="832" alt="IMDF home page (in French): &quot;Institut des Métiers du Digital et du Freelancing&quot;, e-learning platform"></a></p>
 
-A WhatsApp agent that answers customers day and night, takes orders and collects payment by Mobile Money. The shopkeeper follows messages, orders and takings from a web dashboard and an Android app.
+The online training platform of IMDF, an institute for digital and freelance careers: degree paths and courses to learn a digital trade, then land the first freelance jobs. Learners, instructors, organisations and the institute's staff each have their own space.
 
-- Catalogue, order and payment without leaving the WhatsApp conversation
-- Two plans: a button menu, or an AI agent that hands over to the shopkeeper when a request is outside its role
-- Public marketplace of shops, each with a page AI assistants can find
+- Courses in chapters with videos, documents and quizzes, grouped into paths, with a PDF certificate at the end
+- Payment by FedaPay, KKiaPay, Stripe, PayPal or offline with proof; coupons and instructor commissions
+- Fine-grained roles and permissions, blog, podcasts, forum, job offers and support tickets
 
-`TypeScript` `React` `Hono` `PostgreSQL` `Flutter` `KKiaPay`
+`Laravel 11` `PHP` `MySQL` `Blade` `Tailwind CSS`
 
-<p><a href="https://wezon.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
+<p><a href="https://imdf.co/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
 
 <br>
 
@@ -80,53 +116,17 @@ Point-of-sale software designed in Benin: checkout, stock and certified e-MECeF 
 
 <p><a href="https://su.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
 
-<br>
-
-### Hin
-
-**Team workspace: tasks, CRM, documents**
-
-<p><a href="https://hin.ahime.net/"><img src="assets/media/hin.webp" width="832" alt="Hin home page: &quot;The Work OS that brings your team together&quot;"></a></p>
-
-Tasks, documents, CRM, meetings and a whiteboard in one place, with AI task generation. An affordable alternative to Asana, ClickUp and Trello, available on the web, macOS, Windows, Linux, iOS, Android and as a Chrome extension.
-
-- 8 views: list, board, calendar, Gantt, timeline, workload, Eisenhower, table
-- Dashboards: burndown, velocity, team workload
-- Security: two-factor authentication, audit log, 13 roles
-
-`React` `Tauri` `Capacitor` `Laravel` `Gemini`
-
-<p><a href="https://hin.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
-
-<br>
-
-### Douke
-
-**Prospecting agent for freelancers and small businesses**
-
-<p><a href="https://entree.douke.ahime.net/demonstration"><img src="assets/media/douke.webp" width="832" alt="Douke intro film (in French): on Monday you describe your trade, Douke finds companies, writes to each one, you approve, they reply, then the weekly figures"></a></p>
-
-Douke looks for the companies that need you, writes each one a message in your name and follows up. Nothing is sent without your approval: you review, edit or reject. It then prepares the meeting, the quote, the invoice and the review request, and shows the real figures of the week every Monday.
-
-- A message written for each company, with the reason to contact it now: no website, hiring, recently opened
-- Built-in limits: 20 messages a day at most, two follow-ups, then Douke stops
-- Three plans (Solo, Local, Pro): a subscription and a capped share of the sales it brings; results of every account published, zeros included
-
-`Python` `SQLite` `Cloudflare Workers` `D1` `Claude API`
-
-<p><a href="https://douke.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a> <a href="https://entree.douke.ahime.net/demonstration"><img src="assets/btn-demo.en.svg" width="137" height="38" alt="Try the demo"></a></p>
-
 ## More work
 
 A selection from more than forty products in production.
 
 <p align="center">
-  <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.en.svg" width="414" alt="WiFiTche — Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps."></a>
-  <a href="https://imo.ahime.net/"><img src="assets/card-imo.en.svg" width="414" alt="IMO Bénin — Property rental compliant with Benin law 2022-30: leases, rent, KYC, SBEE and SONEB utilities."></a>
-  <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.en.svg" width="414" alt="Tank Configurator — Industrial tank configurator for Ziemann Holvrieka (Germany): geometry, volume and dimensioned drawing."></a>
-  <a href="https://omniscan.ahime.net/"><img src="assets/card-omniscan.en.svg" width="414" alt="OmniScan3D — AI-assisted 3D scanning: object reconstruction, analysis and multi-format export."></a>
   <a href="https://lifac.ahime.net/"><img src="assets/card-lifac.en.svg" width="414" alt="LiFAC — Website, donations and event management for an NGO, with Mobile Money payment."></a>
-  <a href="https://imdf.co/"><img src="assets/card-imdf.en.svg" width="414" alt="E-learning IMDF — Online training platform: learning paths, courses, quizzes and learner tracking."></a>
+  <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.en.svg" width="414" alt="Tank Configurator — Industrial tank configurator for Ziemann Holvrieka (Germany): geometry, volume and dimensioned drawing."></a>
+  <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.en.svg" width="414" alt="WiFiTche — Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps."></a>
+  <a href="https://hin.ahime.net/"><img src="assets/card-hin.en.svg" width="414" alt="Hin — Tasks, documents, CRM, meetings and a whiteboard in one place, on web, desktop and mobile."></a>
+  <a href="https://imo.ahime.net/"><img src="assets/card-imo.en.svg" width="414" alt="IMO Bénin — Property rental compliant with Benin law 2022-30: leases, rent, KYC, SBEE and SONEB utilities."></a>
+  <a href="https://omniscan.ahime.net/"><img src="assets/card-omniscan.en.svg" width="414" alt="OmniScan3D — AI-assisted 3D scanning: object reconstruction, analysis and multi-format export."></a>
 </p>
 
 <b>Also:</b> <a href="https://github.com/nahim-salami/ajo-releases/releases">Ajo</a>, goal-based savings on Android · Figma AI Bridge, an MCP server and plugin to drive Figma from an AI assistant (open source, MIT) · online shops and configurators for clients in Belgium, Switzerland, the Netherlands, the United Kingdom and Canada.

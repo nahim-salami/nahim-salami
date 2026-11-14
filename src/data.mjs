@@ -9,6 +9,59 @@ export const HOME_URL = 'https://ahime.net';
 
 export const FEATURED = [
   {
+    id: 'douke', name: 'Douke',
+    url: 'https://douke.ahime.net/', demo: 'https://entree.douke.ahime.net/demonstration',
+    bar: 'douke.ahime.net',
+    // Film d'accueil du site, enregistré par `node src/film.mjs douke` : une boucle complète, un peu accélérée.
+    video: { file: 'douke-film.webm', from: 2.2, to: 48.4, speed: 1.4, fps: 6, q: 42 },
+    stack: ['Python', 'SQLite', 'Cloudflare Workers', 'D1', 'Claude API'],
+    fr: {
+      tagline: 'Agent de prospection pour les indépendants et les petites entreprises',
+      desc: 'Douke cherche les entreprises qui ont besoin de vous, écrit à chacune un message à votre nom et relance. Rien ne part sans votre accord : vous relisez, vous modifiez ou vous refusez. Il prépare ensuite le rendez-vous, le devis, la facture et la demande d\'avis, et montre chaque lundi les vrais chiffres de la semaine.',
+      points: [
+        'Un message écrit pour chaque entreprise, avec la raison de lui écrire maintenant : site absent, recrutement, ouverture récente',
+        'Garde-fous intégrés : 20 messages par jour au plus, deux relances, puis Douke s\'arrête',
+        'Trois formules (Solo, Local, Pro) : un abonnement et une part plafonnée sur les ventes apportées ; résultats de tous les comptes publiés, zéros compris',
+      ],
+      alt: 'Film d\'accueil de Douke : le lundi vous décrivez votre métier, Douke cherche des entreprises, écrit à chacune, vous validez, on vous répond, puis le bilan de la semaine',
+    },
+    en: {
+      tagline: 'Prospecting agent for freelancers and small businesses',
+      desc: 'Douke looks for the companies that need you, writes each one a message in your name and follows up. Nothing is sent without your approval: you review, edit or reject. It then prepares the meeting, the quote, the invoice and the review request, and shows the real figures of the week every Monday.',
+      points: [
+        'A message written for each company, with the reason to contact it now: no website, hiring, recently opened',
+        'Built-in limits: 20 messages a day at most, two follow-ups, then Douke stops',
+        'Three plans (Solo, Local, Pro): a subscription and a capped share of the sales it brings; results of every account published, zeros included',
+      ],
+      alt: 'Douke intro film (in French): on Monday you describe your trade, Douke finds companies, writes to each one, you approve, they reply, then the weekly figures',
+    },
+  },
+  {
+    id: 'wezon', name: 'Wézon',
+    url: 'https://wezon.ahime.net/', shot: 'wezon',
+    stack: ['TypeScript', 'React', 'Hono', 'PostgreSQL', 'Flutter', 'KKiaPay'],
+    fr: {
+      tagline: 'Agent WhatsApp pour les commerçants, avec paiement Mobile Money',
+      desc: 'Un agent WhatsApp qui répond aux clients jour et nuit, prend les commandes et encaisse par Mobile Money. Le commerçant suit ses messages, ses commandes et ses encaissements depuis un tableau de bord web et une application Android.',
+      points: [
+        'Catalogue, commande et paiement sans quitter la conversation WhatsApp',
+        'Deux offres : menu à boutons, ou agent IA qui passe la main au commerçant dès qu\'une demande sort de son rôle',
+        'Marché public des boutiques, avec une fiche trouvable par les assistants IA',
+      ],
+      alt: 'Page d\'accueil de Wézon : « Votre boutique répond toute seule », avec une conversation WhatsApp sur téléphone',
+    },
+    en: {
+      tagline: 'WhatsApp agent for shopkeepers, with Mobile Money payment',
+      desc: 'A WhatsApp agent that answers customers day and night, takes orders and collects payment by Mobile Money. The shopkeeper follows messages, orders and takings from a web dashboard and an Android app.',
+      points: [
+        'Catalogue, order and payment without leaving the WhatsApp conversation',
+        'Two plans: a button menu, or an AI agent that hands over to the shopkeeper when a request is outside its role',
+        'Public marketplace of shops, each with a page AI assistants can find',
+      ],
+      alt: 'Wézon home page: "Your shop answers by itself", with a WhatsApp conversation on a phone',
+    },
+  },
+  {
     id: 'mesura', name: 'Mesura',
     url: 'https://mesura.ahime.net/produit', demo: 'https://mesura.ahime.net/configurateur',
     bar: 'mesura.ahime.net/configurateur',
@@ -63,28 +116,28 @@ export const FEATURED = [
     },
   },
   {
-    id: 'wezon', name: 'Wézon',
-    url: 'https://wezon.ahime.net/', shot: 'wezon',
-    stack: ['TypeScript', 'React', 'Hono', 'PostgreSQL', 'Flutter', 'KKiaPay'],
+    id: 'imdf', name: 'IMDF',
+    url: 'https://imdf.co/', shot: 'imdf',
+    stack: ['Laravel 11', 'PHP', 'MySQL', 'Blade', 'Tailwind CSS'],
     fr: {
-      tagline: 'Agent WhatsApp pour les commerçants, avec paiement Mobile Money',
-      desc: 'Un agent WhatsApp qui répond aux clients jour et nuit, prend les commandes et encaisse par Mobile Money. Le commerçant suit ses messages, ses commandes et ses encaissements depuis un tableau de bord web et une application Android.',
+      tagline: 'Plateforme e-learning de l\'Institut des Métiers du Digital et du Freelancing',
+      desc: 'La plateforme de formation en ligne de l\'IMDF : des parcours diplômants et des cours pour apprendre un métier du digital, puis décrocher ses premières missions en freelance. Apprenants, formateurs, organisations et équipe de l\'institut y ont chacun leur espace.',
       points: [
-        'Catalogue, commande et paiement sans quitter la conversation WhatsApp',
-        'Deux offres : menu à boutons, ou agent IA qui passe la main au commerçant dès qu\'une demande sort de son rôle',
-        'Marché public des boutiques, avec une fiche trouvable par les assistants IA',
+        'Cours en chapitres avec vidéos, documents et quiz, regroupés en parcours, avec certificat PDF à la fin',
+        'Paiement par FedaPay, KKiaPay, Stripe, PayPal ou hors ligne sur justificatif ; coupons et commissions des formateurs',
+        'Rôles et permissions fins, blog, podcasts, forum, offres de recrutement et tickets de support',
       ],
-      alt: 'Page d\'accueil de Wézon : « Votre boutique répond toute seule », avec une conversation WhatsApp sur téléphone',
+      alt: 'Page d\'accueil d\'IMDF : « Institut des Métiers du Digital et du Freelancing », plateforme e-learning',
     },
     en: {
-      tagline: 'WhatsApp agent for shopkeepers, with Mobile Money payment',
-      desc: 'A WhatsApp agent that answers customers day and night, takes orders and collects payment by Mobile Money. The shopkeeper follows messages, orders and takings from a web dashboard and an Android app.',
+      tagline: 'E-learning platform of the Institut des Métiers du Digital et du Freelancing',
+      desc: 'The online training platform of IMDF, an institute for digital and freelance careers: degree paths and courses to learn a digital trade, then land the first freelance jobs. Learners, instructors, organisations and the institute\'s staff each have their own space.',
       points: [
-        'Catalogue, order and payment without leaving the WhatsApp conversation',
-        'Two plans: a button menu, or an AI agent that hands over to the shopkeeper when a request is outside its role',
-        'Public marketplace of shops, each with a page AI assistants can find',
+        'Courses in chapters with videos, documents and quizzes, grouped into paths, with a PDF certificate at the end',
+        'Payment by FedaPay, KKiaPay, Stripe, PayPal or offline with proof; coupons and instructor commissions',
+        'Fine-grained roles and permissions, blog, podcasts, forum, job offers and support tickets',
       ],
-      alt: 'Wézon home page: "Your shop answers by itself", with a WhatsApp conversation on a phone',
+      alt: 'IMDF home page (in French): "Institut des Métiers du Digital et du Freelancing", e-learning platform',
     },
   },
   {
@@ -112,75 +165,16 @@ export const FEATURED = [
       alt: 'Su POS home page: "The till that runs the shop with you", with a certified invoice',
     },
   },
-  {
-    id: 'hin', name: 'Hin',
-    url: 'https://hin.ahime.net/', shot: 'hin',
-    stack: ['React', 'Tauri', 'Capacitor', 'Laravel', 'Gemini'],
-    fr: {
-      tagline: 'Espace de travail pour les équipes : tâches, CRM, documents',
-      desc: 'Tâches, documents, CRM, réunions et tableau blanc au même endroit, avec génération de tâches par IA. Une alternative abordable à Asana, ClickUp et Trello, disponible sur le web, macOS, Windows, Linux, iOS, Android et en extension Chrome.',
-      points: [
-        '8 vues : liste, board, calendrier, Gantt, timeline, charge, Eisenhower, tableau',
-        'Tableaux de bord : burndown, vélocité, charge de l\'équipe',
-        'Sécurité : double authentification, journal d\'audit, 13 rôles',
-      ],
-      alt: 'Page d\'accueil de Hin : « Le Work OS qui réunit votre équipe »',
-    },
-    en: {
-      tagline: 'Team workspace: tasks, CRM, documents',
-      desc: 'Tasks, documents, CRM, meetings and a whiteboard in one place, with AI task generation. An affordable alternative to Asana, ClickUp and Trello, available on the web, macOS, Windows, Linux, iOS, Android and as a Chrome extension.',
-      points: [
-        '8 views: list, board, calendar, Gantt, timeline, workload, Eisenhower, table',
-        'Dashboards: burndown, velocity, team workload',
-        'Security: two-factor authentication, audit log, 13 roles',
-      ],
-      alt: 'Hin home page: "The Work OS that brings your team together"',
-    },
-  },
-  {
-    id: 'douke', name: 'Douke',
-    url: 'https://douke.ahime.net/', demo: 'https://entree.douke.ahime.net/demonstration',
-    bar: 'douke.ahime.net',
-    // Film d'accueil du site, enregistré par `node src/film.mjs douke` : une boucle complète, un peu accélérée.
-    video: { file: 'douke-film.webm', from: 2.2, to: 48.4, speed: 1.4, fps: 6, q: 42 },
-    stack: ['Python', 'SQLite', 'Cloudflare Workers', 'D1', 'Claude API'],
-    fr: {
-      tagline: 'Agent de prospection pour les indépendants et les petites entreprises',
-      desc: 'Douke cherche les entreprises qui ont besoin de vous, écrit à chacune un message à votre nom et relance. Rien ne part sans votre accord : vous relisez, vous modifiez ou vous refusez. Il prépare ensuite le rendez-vous, le devis, la facture et la demande d\'avis, et montre chaque lundi les vrais chiffres de la semaine.',
-      points: [
-        'Un message écrit pour chaque entreprise, avec la raison de lui écrire maintenant : site absent, recrutement, ouverture récente',
-        'Garde-fous intégrés : 20 messages par jour au plus, deux relances, puis Douke s\'arrête',
-        'Trois formules (Solo, Local, Pro) : un abonnement et une part plafonnée sur les ventes apportées ; résultats de tous les comptes publiés, zéros compris',
-      ],
-      alt: 'Film d\'accueil de Douke : le lundi vous décrivez votre métier, Douke cherche des entreprises, écrit à chacune, vous validez, on vous répond, puis le bilan de la semaine',
-    },
-    en: {
-      tagline: 'Prospecting agent for freelancers and small businesses',
-      desc: 'Douke looks for the companies that need you, writes each one a message in your name and follows up. Nothing is sent without your approval: you review, edit or reject. It then prepares the meeting, the quote, the invoice and the review request, and shows the real figures of the week every Monday.',
-      points: [
-        'A message written for each company, with the reason to contact it now: no website, hiring, recently opened',
-        'Built-in limits: 20 messages a day at most, two follow-ups, then Douke stops',
-        'Three plans (Solo, Local, Pro): a subscription and a capped share of the sales it brings; results of every account published, zeros included',
-      ],
-      alt: 'Douke intro film (in French): on Monday you describe your trade, Douke finds companies, writes to each one, you approve, they reply, then the weekly figures',
-    },
-  },
 ];
 
 /* --------------------------- Autres réalisations ------------------------- */
 
 export const OTHERS = [
   {
-    id: 'wifitche', name: 'WiFiTche', url: 'https://wifitche.ahime.net/', shot: 'wifitche',
-    stack: ['Flutter', 'Next.js', 'Prisma', 'FedaPay'],
-    fr: { kind: 'Wi-Fi · MikroTik', desc: 'Vente d\'accès Wi-Fi par routeurs MikroTik, payée en Mobile Money. Applications client, gérant et technicien.' },
-    en: { kind: 'Wi-Fi · MikroTik', desc: 'Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps.' },
-  },
-  {
-    id: 'imo', name: 'IMO Bénin', url: 'https://imo.ahime.net/', shot: 'imo',
-    stack: ['React', 'Flutter', 'Laravel', 'KKiaPay'],
-    fr: { kind: 'Immobilier', desc: 'Location immobilière conforme à la loi 2022-30 : baux, loyers, KYC, services SBEE et SONEB.' },
-    en: { kind: 'Real estate', desc: 'Property rental compliant with Benin law 2022-30: leases, rent, KYC, SBEE and SONEB utilities.' },
+    id: 'lifac', name: 'LiFAC', url: 'https://lifac.ahime.net/', shot: 'lifac',
+    stack: ['Next.js', 'Prisma', 'PostgreSQL', 'FedaPay'],
+    fr: { kind: 'ONG', desc: 'Site, dons et gestion d\'événements d\'une ONG, avec paiement Mobile Money.' },
+    en: { kind: 'Non-profit', desc: 'Website, donations and event management for an NGO, with Mobile Money payment.' },
   },
   {
     id: 'tank', name: 'Tank Configurator', url: 'http://tank-config.ziemann-holvrieka.com/', shot: 'tank',
@@ -189,22 +183,28 @@ export const OTHERS = [
     en: { kind: 'Industry · 3D', desc: 'Industrial tank configurator for Ziemann Holvrieka (Germany): geometry, volume and dimensioned drawing.' },
   },
   {
+    id: 'wifitche', name: 'WiFiTche', url: 'https://wifitche.ahime.net/', shot: 'wifitche',
+    stack: ['Flutter', 'Next.js', 'Prisma', 'FedaPay'],
+    fr: { kind: 'Wi-Fi · MikroTik', desc: 'Vente d\'accès Wi-Fi par routeurs MikroTik, payée en Mobile Money. Applications client, gérant et technicien.' },
+    en: { kind: 'Wi-Fi · MikroTik', desc: 'Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps.' },
+  },
+  {
+    id: 'hin', name: 'Hin', url: 'https://hin.ahime.net/', shot: 'hin',
+    stack: ['React', 'Tauri', 'Laravel', 'Gemini'],
+    fr: { kind: 'Travail d\'équipe', desc: 'Tâches, documents, CRM, réunions et tableau blanc au même endroit, sur le web, le bureau et le mobile.' },
+    en: { kind: 'Team workspace', desc: 'Tasks, documents, CRM, meetings and a whiteboard in one place, on web, desktop and mobile.' },
+  },
+  {
+    id: 'imo', name: 'IMO Bénin', url: 'https://imo.ahime.net/', shot: 'imo',
+    stack: ['React', 'Flutter', 'Laravel', 'KKiaPay'],
+    fr: { kind: 'Immobilier', desc: 'Location immobilière conforme à la loi 2022-30 : baux, loyers, KYC, services SBEE et SONEB.' },
+    en: { kind: 'Real estate', desc: 'Property rental compliant with Benin law 2022-30: leases, rent, KYC, SBEE and SONEB utilities.' },
+  },
+  {
     id: 'omniscan', name: 'OmniScan3D', url: 'https://omniscan.ahime.net/', shot: 'omniscan',
     stack: ['React', 'Three.js', 'Gemini', 'Express'],
     fr: { kind: 'IA · 3D', desc: 'Scan 3D assisté par IA : reconstruction d\'objets, analyse et export multi-format.' },
     en: { kind: 'AI · 3D', desc: 'AI-assisted 3D scanning: object reconstruction, analysis and multi-format export.' },
-  },
-  {
-    id: 'lifac', name: 'LiFAC', url: 'https://lifac.ahime.net/', shot: 'lifac',
-    stack: ['Next.js', 'Prisma', 'PostgreSQL', 'FedaPay'],
-    fr: { kind: 'ONG', desc: 'Site, dons et gestion d\'événements d\'une ONG, avec paiement Mobile Money.' },
-    en: { kind: 'Non-profit', desc: 'Website, donations and event management for an NGO, with Mobile Money payment.' },
-  },
-  {
-    id: 'imdf', name: 'E-learning IMDF', url: 'https://imdf.co/', shot: 'imdf',
-    stack: ['Laravel', 'Blade', 'Tailwind'],
-    fr: { kind: 'Formation', desc: 'Plateforme de formation en ligne : parcours, cours, quiz et suivi des apprenants.' },
-    en: { kind: 'Education', desc: 'Online training platform: learning paths, courses, quizzes and learner tracking.' },
   },
 ];
 

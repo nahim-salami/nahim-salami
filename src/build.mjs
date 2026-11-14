@@ -91,9 +91,9 @@ function jpeg(file) {
 function banner(L) {
   const W = FULL, H = 300;
   const shots = [
-    { img: jpeg('banner-mesura.jpg'), x: 458, y: 38 },
-    { img: jpeg('banner-neon-light.jpg'), x: 524, y: 82 },
-    { img: jpeg('banner-wezon.jpg'), x: 590, y: 126 },
+    { img: jpeg('banner-douke.jpg'), x: 458, y: 38 },
+    { img: jpeg('banner-wezon.jpg'), x: 524, y: 82 },
+    { img: jpeg('banner-mesura.jpg'), x: 590, y: 126 },
   ];
   const cw = 214, ch = 134;
   const stack = shots.map((s, i) => `

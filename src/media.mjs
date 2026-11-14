@@ -85,15 +85,16 @@ for (const p of FEATURED) {
 await browser.close();
 
 // Trois vignettes pour la bannière : une image de chaque projet de tête.
+// (`node src/media.mjs banner` ne refait qu'elles. `at` : instant à prendre dans une vidéo.)
 const BANNER = {
-  'banner-mesura': join(VIDEOS, 'marque_videos_mesura-fenetre.jpg'),
-  'banner-neon-light': join(VIDEOS, 'marque_videos_neon-light.jpg'),
-  'banner-wezon': join(SHOTS, 'wezon.png'),
+  'banner-douke': { src: join(VIDEOS, 'douke-film.webm'), at: 2.4 },
+  'banner-wezon': { src: join(SHOTS, 'wezon.png') },
+  'banner-mesura': { src: join(VIDEOS, 'marque_videos_mesura-fenetre.jpg') },
 };
-for (const [name, src] of Object.entries(BANNER)) {
-  if (only.length) break;
+for (const [name, { src, at }] of Object.entries(BANNER)) {
+  if (!wanted('banner')) break;
   const out = join(THUMBS, `${name}.jpg`);
-  ffmpeg('-i', src, '-vf', 'scale=432:270:force_original_aspect_ratio=increase:flags=lanczos,crop=432:270:0:0', '-q:v', '4', out);
+  ffmpeg(...(at != null ? ['-ss', String(at)] : []), '-i', src, '-frames:v', '1','-vf', 'scale=432:270:force_original_aspect_ratio=increase:flags=lanczos,crop=432:270:0:0', '-q:v', '4', out);
   console.log(`${name}.jpg  ${kb(out)}`);
 }
 

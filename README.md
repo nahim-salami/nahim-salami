@@ -98,6 +98,24 @@ Tâches, documents, CRM, réunions et tableau blanc au même endroit, avec gén�
 
 <p><a href="https://hin.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a></p>
 
+<br>
+
+### Douke
+
+**Agent de prospection pour les indépendants et les petites entreprises**
+
+<p><a href="https://entree.douke.ahime.net/demonstration"><img src="assets/media/douke.webp" width="832" alt="Film d'accueil de Douke : le lundi vous décrivez votre métier, Douke cherche des entreprises, écrit à chacune, vous validez, on vous répond, puis le bilan de la semaine"></a></p>
+
+Douke cherche les entreprises qui ont besoin de vous, écrit à chacune un message à votre nom et relance. Rien ne part sans votre accord : vous relisez, vous modifiez ou vous refusez. Il prépare ensuite le rendez-vous, le devis, la facture et la demande d'avis, et montre chaque lundi les vrais chiffres de la semaine.
+
+- Un message écrit pour chaque entreprise, avec la raison de lui écrire maintenant : site absent, recrutement, ouverture récente
+- Garde-fous intégrés : 20 messages par jour au plus, deux relances, puis Douke s'arrête
+- Trois formules (Solo, Local, Pro) : un abonnement et une part plafonnée sur les ventes apportées ; résultats de tous les comptes publiés, zéros compris
+
+`Python` `SQLite` `Cloudflare Workers` `D1` `Claude API`
+
+<p><a href="https://douke.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a> <a href="https://entree.douke.ahime.net/demonstration"><img src="assets/btn-demo.fr.svg" width="158" height="38" alt="Essayer la démo"></a></p>
+
 ## Autres réalisations
 
 Une sélection parmi plus de quarante produits en production.

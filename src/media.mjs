@@ -45,7 +45,12 @@ async function shootFrame(params, file, scale) {
   await page.close();
 }
 
+// `node src/media.mjs douke hin` ne refait que ces projets (et laisse les autres fichiers intacts).
+const only = process.argv.slice(2);
+const wanted = (id) => !only.length || only.includes(id);
+
 for (const p of FEATURED) {
+  if (!wanted(p.id)) continue;
   const out = join(OUT, `${p.id}.webp`);
   const bar = p.bar ?? new URL(p.url).host;
 
@@ -58,10 +63,14 @@ for (const p of FEATURED) {
     const mask = join(TMP, `${p.id}-mask.png`);
     await shootFrame({ url: bar, h }, frame, 1);
     await shootFrame({ url: bar, h, mode: 'mask' }, mask, 1);
+    // Options de montage : `from` / `to` (secondes) pour ne garder qu'un passage, `speed` pour l'accélérer.
+    const { from, to, speed = 1 } = p.video;
+    const cut = from != null || to != null
+      ? `trim=${[from != null && `start=${from}`, to != null && `end=${to}`].filter(Boolean).join(':')},` : '';
     ffmpeg(
       '-i', src, '-i', frame, '-i', mask,
       '-filter_complex',
-      `[0:v]fps=${p.video.fps ?? 15},scale=${W}:${h}:flags=lanczos,pad=${W}:${h + BAR}:0:${BAR}:color=0x17191E[v];`
+      `[0:v]${cut}setpts=(PTS-STARTPTS)/${speed},fps=${p.video.fps ?? 15},scale=${W}:${h}:flags=lanczos,pad=${W}:${h + BAR}:0:${BAR}:color=0x17191E[v];`
       + `[v][1:v]overlay=0:0[w];[2:v]format=gray[m];[w][m]alphamerge[o]`,
       '-map', '[o]', '-an', '-c:v', 'libwebp', '-lossless', '0', '-q:v', String(p.video.q ?? 60), '-compression_level', '5', '-loop', '0', out,
     );
@@ -82,6 +91,7 @@ const BANNER = {
   'banner-wezon': join(SHOTS, 'wezon.png'),
 };
 for (const [name, src] of Object.entries(BANNER)) {
+  if (only.length) break;
   const out = join(THUMBS, `${name}.jpg`);
   ffmpeg('-i', src, '-vf', 'scale=432:270:force_original_aspect_ratio=increase:flags=lanczos,crop=432:270:0:0', '-q:v', '4', out);
   console.log(`${name}.jpg  ${kb(out)}`);
@@ -89,7 +99,7 @@ for (const [name, src] of Object.entries(BANNER)) {
 
 // Vignettes des autres réalisations (intégrées ensuite dans les cartes SVG).
 for (const p of OTHERS) {
-  if (!p.shot) continue;
+  if (!p.shot || !wanted(p.id)) continue;
   const out = join(THUMBS, `${p.id}.jpg`);
   ffmpeg('-i', join(SHOTS, `${p.shot}.png`), '-vf', 'scale=812:-2:flags=lanczos,crop=812:508:0:0', '-q:v', '4', out);
   console.log(`${p.id}.jpg  ${kb(out)}`);

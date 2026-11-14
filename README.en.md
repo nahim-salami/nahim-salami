@@ -98,6 +98,24 @@ Tasks, documents, CRM, meetings and a whiteboard in one place, with AI task gene
 
 <p><a href="https://hin.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
 
+<br>
+
+### Douke
+
+**Prospecting agent for freelancers and small businesses**
+
+<p><a href="https://entree.douke.ahime.net/demonstration"><img src="assets/media/douke.webp" width="832" alt="Douke intro film (in French): on Monday you describe your trade, Douke finds companies, writes to each one, you approve, they reply, then the weekly figures"></a></p>
+
+Douke looks for the companies that need you, writes each one a message in your name and follows up. Nothing is sent without your approval: you review, edit or reject. It then prepares the meeting, the quote, the invoice and the review request, and shows the real figures of the week every Monday.
+
+- A message written for each company, with the reason to contact it now: no website, hiring, recently opened
+- Built-in limits: 20 messages a day at most, two follow-ups, then Douke stops
+- Three plans (Solo, Local, Pro): a subscription and a capped share of the sales it brings; results of every account published, zeros included
+
+`Python` `SQLite` `Cloudflare Workers` `D1` `Claude API`
+
+<p><a href="https://douke.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a> <a href="https://entree.douke.ahime.net/demonstration"><img src="assets/btn-demo.en.svg" width="137" height="38" alt="Try the demo"></a></p>
+
 ## More work
 
 A selection from more than forty products in production.

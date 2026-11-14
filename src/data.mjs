@@ -137,6 +137,34 @@ export const FEATURED = [
       alt: 'Hin home page: "The Work OS that brings your team together"',
     },
   },
+  {
+    id: 'douke', name: 'Douke',
+    url: 'https://douke.ahime.net/', demo: 'https://entree.douke.ahime.net/demonstration',
+    bar: 'douke.ahime.net',
+    // Film d'accueil du site, enregistré par `node src/film.mjs douke` : une boucle complète, un peu accélérée.
+    video: { file: 'douke-film.webm', from: 2.2, to: 48.4, speed: 1.4, fps: 6, q: 42 },
+    stack: ['Python', 'SQLite', 'Cloudflare Workers', 'D1', 'Claude API'],
+    fr: {
+      tagline: 'Agent de prospection pour les indépendants et les petites entreprises',
+      desc: 'Douke cherche les entreprises qui ont besoin de vous, écrit à chacune un message à votre nom et relance. Rien ne part sans votre accord : vous relisez, vous modifiez ou vous refusez. Il prépare ensuite le rendez-vous, le devis, la facture et la demande d\'avis, et montre chaque lundi les vrais chiffres de la semaine.',
+      points: [
+        'Un message écrit pour chaque entreprise, avec la raison de lui écrire maintenant : site absent, recrutement, ouverture récente',
+        'Garde-fous intégrés : 20 messages par jour au plus, deux relances, puis Douke s\'arrête',
+        'Trois formules (Solo, Local, Pro) : un abonnement et une part plafonnée sur les ventes apportées ; résultats de tous les comptes publiés, zéros compris',
+      ],
+      alt: 'Film d\'accueil de Douke : le lundi vous décrivez votre métier, Douke cherche des entreprises, écrit à chacune, vous validez, on vous répond, puis le bilan de la semaine',
+    },
+    en: {
+      tagline: 'Prospecting agent for freelancers and small businesses',
+      desc: 'Douke looks for the companies that need you, writes each one a message in your name and follows up. Nothing is sent without your approval: you review, edit or reject. It then prepares the meeting, the quote, the invoice and the review request, and shows the real figures of the week every Monday.',
+      points: [
+        'A message written for each company, with the reason to contact it now: no website, hiring, recently opened',
+        'Built-in limits: 20 messages a day at most, two follow-ups, then Douke stops',
+        'Three plans (Solo, Local, Pro): a subscription and a capped share of the sales it brings; results of every account published, zeros included',
+      ],
+      alt: 'Douke intro film (in French): on Monday you describe your trade, Douke finds companies, writes to each one, you approve, they reply, then the weekly figures',
+    },
+  },
 ];
 
 /* --------------------------- Autres réalisations ------------------------- */

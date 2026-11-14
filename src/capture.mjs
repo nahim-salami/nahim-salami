@@ -26,6 +26,7 @@ export const PAGES = {
   wezon: 'https://wezon.ahime.net/',
   su: 'https://su.ahime.net/',
   hin: 'https://hin.ahime.net/',
+  douke: 'https://douke.ahime.net/',
   wifitche: 'https://wifitche.ahime.net/',
   imo: 'https://imo.ahime.net/',
   lifac: 'https://lifac.ahime.net/',

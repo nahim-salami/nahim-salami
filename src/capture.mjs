@@ -29,7 +29,7 @@ export const PAGES = {
   douke: 'https://douke.ahime.net/',
   wifitche: 'https://wifitche.ahime.net/',
   imo: 'https://imo.ahime.net/',
-  lifac: 'https://lifac.ahime.net/',
+  lifac: 'https://lifac.org/',
   tank: 'http://tank-config.ziemann-holvrieka.com/',
   omniscan: 'https://omniscan.ahime.net/',
   pacifier: 'https://attache-tetine.ahime.net/',

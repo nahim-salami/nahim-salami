@@ -121,7 +121,7 @@ Logiciel de caisse conçu au Bénin : encaissement, stock et factures normalisé
 Une sélection parmi plus de quarante produits en production.
 
 <p align="center">
-  <a href="https://lifac.ahime.net/"><img src="assets/card-lifac.fr.svg" width="414" alt="LiFAC — Site, dons et gestion d'événements d'une ONG, avec paiement Mobile Money."></a>
+  <a href="https://lifac.org/"><img src="assets/card-lifac.fr.svg" width="414" alt="LiFAC — Site, dons et gestion d'événements d'une ONG, avec paiement Mobile Money."></a>
   <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.fr.svg" width="414" alt="Tank Configurator — Configurateur de cuves industrielles pour Ziemann Holvrieka (Allemagne) : géométrie, volume et plan coté."></a>
   <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.fr.svg" width="414" alt="WiFiTche — Vente d'accès Wi-Fi par routeurs MikroTik, payée en Mobile Money. Applications client, gérant et technicien."></a>
   <a href="https://hin.ahime.net/"><img src="assets/card-hin.fr.svg" width="414" alt="Hin — Tâches, documents, CRM, réunions et tableau blanc au même endroit, sur le web, le bureau et le mobile."></a>

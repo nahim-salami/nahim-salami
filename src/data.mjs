@@ -171,7 +171,7 @@ export const FEATURED = [
 
 export const OTHERS = [
   {
-    id: 'lifac', name: 'LiFAC', url: 'https://lifac.ahime.net/', shot: 'lifac',
+    id: 'lifac', name: 'LiFAC', url: 'https://lifac.org/', shot: 'lifac',
     stack: ['Next.js', 'Prisma', 'PostgreSQL', 'FedaPay'],
     fr: { kind: 'ONG', desc: 'Site, dons et gestion d\'événements d\'une ONG, avec paiement Mobile Money.' },
     en: { kind: 'Non-profit', desc: 'Website, donations and event management for an NGO, with Mobile Money payment.' },

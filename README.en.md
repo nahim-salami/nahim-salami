@@ -121,7 +121,7 @@ Point-of-sale software designed in Benin: checkout, stock and certified e-MECeF 
 A selection from more than forty products in production.
 
 <p align="center">
-  <a href="https://lifac.ahime.net/"><img src="assets/card-lifac.en.svg" width="414" alt="LiFAC — Website, donations and event management for an NGO, with Mobile Money payment."></a>
+  <a href="https://lifac.org/"><img src="assets/card-lifac.en.svg" width="414" alt="LiFAC — Website, donations and event management for an NGO, with Mobile Money payment."></a>
   <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.en.svg" width="414" alt="Tank Configurator — Industrial tank configurator for Ziemann Holvrieka (Germany): geometry, volume and dimensioned drawing."></a>
   <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.en.svg" width="414" alt="WiFiTche — Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps."></a>
   <a href="https://hin.ahime.net/"><img src="assets/card-hin.en.svg" width="414" alt="Hin — Tasks, documents, CRM, meetings and a whiteboard in one place, on web, desktop and mobile."></a>

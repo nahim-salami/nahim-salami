@@ -10,6 +10,24 @@ Software architect and founder of <a href="https://ahime.net">Ahime</a>, a studi
 
 ## Featured projects
 
+### Watch Studio
+
+**Watch configurator in 2D, 3D and augmented reality**
+
+<p><a href="https://watch.ahime.net/"><img src="assets/media/watch.webp" width="832" alt="Watch Studio (in French): the &quot;Plongée bicolore&quot; diver watch in 3D, with the dial colour choices"></a></p>
+
+A watch configurator that knows which parts go together. Every combination is built in 3D from its dimensions, checked by compatibility rules and priced to the cent at each choice. Case-back engraving, night view and augmented reality on iPhone and Android.
+
+- Case, bezel, dial, hands, strap: the parts come from the brand's catalogue, and an impossible option stays visible with its reason
+- Price recomputed at each choice, quantity tiers for white-label orders, checked again by the server at payment
+- A single tag for WooCommerce, Shopify or any site; GLB and USDZ files written for every watch
+
+`TypeScript` `Three.js` `Web Component` `WebXR`
+
+<p><a href="https://watch.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
+
+<br>
+
 ### Douke
 
 **Prospecting agent for freelancers and small businesses**
@@ -46,6 +64,24 @@ A WhatsApp agent that answers customers day and night, takes orders and collects
 
 <br>
 
+### Jewel Studio
+
+**3D ring configurator that weighs the gold and cuts the diamond**
+
+<p><a href="https://jewel.ahime.net/"><img src="assets/media/jewel.webp" width="832" alt="Jewel Studio (in French): the &quot;Entourage saphir&quot; sapphire ring in 3D, with the model choices"></a></p>
+
+Every ring is built in 3D from its dimensions. The stone is cut facet by facet and light is traced through it ray by ray; the metal is weighed from the geometry and priced at the day's rate. Jeweller's rules keep every order makeable.
+
+- Six stone cuts, from round to pear, and many settings: solitaire, halo, cluster, toi et moi, three-stone, signet
+- Computed price: metal weight, stone table by weight, colour and clarity, setting and labour
+- Worn view on a hand, inside engraving, EU, US and UK sizes, quote and workshop sheet as PDF
+
+`TypeScript` `Three.js` `GLSL` `Web Component`
+
+<p><a href="https://jewel.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
+
+<br>
+
 ### Mesura
 
 **White-label 2D/3D configurator for made-to-measure manufacturers**
@@ -61,6 +97,24 @@ Joiners, blind makers, fitters: their customers build the product themselves, se
 `TypeScript` `React 18` `Three.js` `PHP` `WooCommerce`
 
 <p><a href="https://mesura.ahime.net/produit"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a> <a href="https://mesura.ahime.net/configurateur"><img src="assets/btn-demo.en.svg" width="137" height="38" alt="Try the demo"></a></p>
+
+<br>
+
+### Wrap Studio
+
+**Vehicle wrap configurator in 2D, 3D and augmented reality**
+
+<p><a href="https://wrap.ahime.net/"><img src="assets/media/wrap.webp" width="832" alt="Wrap Studio (in French): a van wrapped for &quot;Blue River&quot; in the studio, with the zones to cover"></a></p>
+
+The customer picks a generic vehicle at its real dimensions, covers each zone with a film, then places lettering, stripes, a logo and artwork at real size. The engine checks what can actually be fitted, prices the film actually used and outputs the production files.
+
+- Panel van, compact van, hatchback, SUV and pick-up, with ready-made designs to customise
+- Price that follows the metres of film actually fitted
+- SVG, DXF and PLT cut files, print PDF, fitting sheet, 3D export as GLB and USDZ
+
+`TypeScript` `Three.js` `opentype.js` `pdf-lib`
+
+<p><a href="https://wrap.ahime.net/"><img src="assets/btn-site.en.svg" width="132" height="38" alt="Visit the site"></a></p>
 
 <br>
 
@@ -124,9 +178,6 @@ A selection from more than forty products in production.
   <a href="https://lifac.org/"><img src="assets/card-lifac.en.svg" width="414" alt="LiFAC — Website, donations and event management for an NGO, with Mobile Money payment."></a>
   <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.en.svg" width="414" alt="Tank Configurator — Industrial tank configurator for Ziemann Holvrieka (Germany): geometry, volume and dimensioned drawing."></a>
   <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.en.svg" width="414" alt="WiFiTche — Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps."></a>
-  <a href="https://watch.ahime.net/"><img src="assets/card-watch.en.svg" width="414" alt="Watch Studio — Watch configurator in 2D, 3D and augmented reality: compatibility rules, live price, engraving."></a>
-  <a href="https://jewel.ahime.net/"><img src="assets/card-jewel.en.svg" width="414" alt="Jewel Studio — Ring configurator in 3D: diamond rendered facet by facet, price from the metal weight, PDF quote."></a>
-  <a href="https://wrap.ahime.net/"><img src="assets/card-wrap.en.svg" width="414" alt="Wrap Studio — Vehicle wrap configurator: films, lettering at real size, price per metre of film, cut files."></a>
   <a href="https://hin.ahime.net/"><img src="assets/card-hin.en.svg" width="414" alt="Hin — Tasks, documents, CRM, meetings and a whiteboard in one place, on web, desktop and mobile."></a>
   <a href="https://imo.ahime.net/"><img src="assets/card-imo.en.svg" width="414" alt="IMO Bénin — Property rental compliant with Benin law 2022-30: leases, rent, KYC, SBEE and SONEB utilities."></a>
   <a href="https://omniscan.ahime.net/"><img src="assets/card-omniscan.en.svg" width="414" alt="OmniScan3D — AI-assisted 3D scanning: object reconstruction, analysis and multi-format export."></a>

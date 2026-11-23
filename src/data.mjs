@@ -9,6 +9,31 @@ export const HOME_URL = 'https://ahime.net';
 
 export const FEATURED = [
   {
+    id: 'watch', name: 'Watch Studio',
+    url: 'https://watch.ahime.net/', shot: 'watch',
+    stack: ['TypeScript', 'Three.js', 'Web Component', 'WebXR'],
+    fr: {
+      tagline: 'Configurateur de montres en 2D, 3D et réalité augmentée',
+      desc: 'Un configurateur de montres qui sait quelles pièces vont ensemble. Chaque combinaison est construite en 3D à partir de ses cotes, contrôlée par des règles de compatibilité et chiffrée au centime à chaque choix. Gravure du fond, vue de nuit et réalité augmentée sur iPhone et Android.',
+      points: [
+        'Boîtier, lunette, cadran, aiguilles, bracelet : les pièces viennent du catalogue de la marque, et une option impossible reste visible avec sa raison',
+        'Prix recalculé à chaque choix, paliers de quantité pour la marque blanche, revérifié par le serveur au paiement',
+        'Une seule balise pour WooCommerce, Shopify ou tout site ; fichiers GLB et USDZ écrits pour chaque montre',
+      ],
+      alt: 'Watch Studio : la montre « Plongée bicolore » en 3D, avec le choix de la couleur du cadran',
+    },
+    en: {
+      tagline: 'Watch configurator in 2D, 3D and augmented reality',
+      desc: 'A watch configurator that knows which parts go together. Every combination is built in 3D from its dimensions, checked by compatibility rules and priced to the cent at each choice. Case-back engraving, night view and augmented reality on iPhone and Android.',
+      points: [
+        'Case, bezel, dial, hands, strap: the parts come from the brand\'s catalogue, and an impossible option stays visible with its reason',
+        'Price recomputed at each choice, quantity tiers for white-label orders, checked again by the server at payment',
+        'A single tag for WooCommerce, Shopify or any site; GLB and USDZ files written for every watch',
+      ],
+      alt: 'Watch Studio (in French): the "Plongée bicolore" diver watch in 3D, with the dial colour choices',
+    },
+  },
+  {
     id: 'douke', name: 'Douke',
     url: 'https://douke.ahime.net/', demo: 'https://entree.douke.ahime.net/demonstration',
     bar: 'douke.ahime.net',
@@ -62,6 +87,31 @@ export const FEATURED = [
     },
   },
   {
+    id: 'jewel', name: 'Jewel Studio',
+    url: 'https://jewel.ahime.net/', shot: 'jewel',
+    stack: ['TypeScript', 'Three.js', 'GLSL', 'Web Component'],
+    fr: {
+      tagline: 'Configurateur de bagues 3D qui pèse l\'or et taille le diamant',
+      desc: 'Chaque bague est construite en 3D à partir de ses cotes. La pierre est taillée facette par facette et la lumière y est suivie rayon par rayon ; le métal est pesé d\'après la géométrie et chiffré au cours du jour. Des règles de bijoutier gardent chaque commande fabricable.',
+      points: [
+        'Six tailles de pierre, du rond à la poire, et de nombreux sertis : solitaire, halo, entourage, toi et moi, trois pierres, chevalière',
+        'Prix calculé : poids du métal, table des pierres par poids, teinte et pureté, serti et façon',
+        'Vue portée sur une main, gravure intérieure, tailles EU, US et UK, devis et fiche d\'atelier en PDF',
+      ],
+      alt: 'Jewel Studio : la bague « Entourage saphir » en 3D, avec le choix du modèle',
+    },
+    en: {
+      tagline: '3D ring configurator that weighs the gold and cuts the diamond',
+      desc: 'Every ring is built in 3D from its dimensions. The stone is cut facet by facet and light is traced through it ray by ray; the metal is weighed from the geometry and priced at the day\'s rate. Jeweller\'s rules keep every order makeable.',
+      points: [
+        'Six stone cuts, from round to pear, and many settings: solitaire, halo, cluster, toi et moi, three-stone, signet',
+        'Computed price: metal weight, stone table by weight, colour and clarity, setting and labour',
+        'Worn view on a hand, inside engraving, EU, US and UK sizes, quote and workshop sheet as PDF',
+      ],
+      alt: 'Jewel Studio (in French): the "Entourage saphir" sapphire ring in 3D, with the model choices',
+    },
+  },
+  {
     id: 'mesura', name: 'Mesura',
     url: 'https://mesura.ahime.net/produit', demo: 'https://mesura.ahime.net/configurateur',
     bar: 'mesura.ahime.net/configurateur',
@@ -86,6 +136,31 @@ export const FEATURED = [
         'Embeddable web component, WooCommerce extension, pricing that also runs offline',
       ],
       alt: 'Animated Mesura demo: a two-leaf window configured in 2D then 3D, with the price updating live',
+    },
+  },
+  {
+    id: 'wrap', name: 'Wrap Studio',
+    url: 'https://wrap.ahime.net/', shot: 'wrap',
+    stack: ['TypeScript', 'Three.js', 'opentype.js', 'pdf-lib'],
+    fr: {
+      tagline: 'Configurateur de covering de véhicules en 2D, 3D et réalité augmentée',
+      desc: 'Le client choisit un véhicule générique à ses cotes, habille chaque zone d\'un film, puis pose lettrage, bandes, logo et dessin à l\'échelle réelle. Le moteur vérifie ce qui se pose vraiment, chiffre le film réellement consommé et sort les fichiers de fabrication.',
+      points: [
+        'Fourgon, fourgonnette, citadine, SUV et pick-up, avec des habillages prêts à personnaliser',
+        'Prix qui suit les mètres de film réellement posés',
+        'Fichiers de découpe SVG, DXF et PLT, PDF d\'impression, fiche de pose, export 3D en GLB et USDZ',
+      ],
+      alt: 'Wrap Studio : un fourgon habillé « Blue River » dans l\'atelier, avec le choix des zones à couvrir',
+    },
+    en: {
+      tagline: 'Vehicle wrap configurator in 2D, 3D and augmented reality',
+      desc: 'The customer picks a generic vehicle at its real dimensions, covers each zone with a film, then places lettering, stripes, a logo and artwork at real size. The engine checks what can actually be fitted, prices the film actually used and outputs the production files.',
+      points: [
+        'Panel van, compact van, hatchback, SUV and pick-up, with ready-made designs to customise',
+        'Price that follows the metres of film actually fitted',
+        'SVG, DXF and PLT cut files, print PDF, fitting sheet, 3D export as GLB and USDZ',
+      ],
+      alt: 'Wrap Studio (in French): a van wrapped for "Blue River" in the studio, with the zones to cover',
     },
   },
   {
@@ -187,24 +262,6 @@ export const OTHERS = [
     stack: ['Flutter', 'Next.js', 'Prisma', 'FedaPay'],
     fr: { kind: 'Wi-Fi · MikroTik', desc: 'Vente d\'accès Wi-Fi par routeurs MikroTik, payée en Mobile Money. Applications client, gérant et technicien.' },
     en: { kind: 'Wi-Fi · MikroTik', desc: 'Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps.' },
-  },
-  {
-    id: 'watch', name: 'Watch Studio', url: 'https://watch.ahime.net/', shot: 'watch',
-    stack: ['TypeScript', 'Three.js', 'Web Component', 'WebXR'],
-    fr: { kind: 'Horlogerie · 3D', desc: 'Configurateur de montres en 2D, 3D et réalité augmentée : règles de compatibilité, prix en direct, gravure.' },
-    en: { kind: 'Watchmaking · 3D', desc: 'Watch configurator in 2D, 3D and augmented reality: compatibility rules, live price, engraving.' },
-  },
-  {
-    id: 'jewel', name: 'Jewel Studio', url: 'https://jewel.ahime.net/', shot: 'jewel',
-    stack: ['TypeScript', 'Three.js', 'GLSL', 'Web Component'],
-    fr: { kind: 'Joaillerie · 3D', desc: 'Configurateur de bagues 3D : diamant rendu facette par facette, prix tiré du poids du métal, devis PDF.' },
-    en: { kind: 'Jewellery · 3D', desc: 'Ring configurator in 3D: diamond rendered facet by facet, price from the metal weight, PDF quote.' },
-  },
-  {
-    id: 'wrap', name: 'Wrap Studio', url: 'https://wrap.ahime.net/', shot: 'wrap',
-    stack: ['TypeScript', 'Three.js', 'opentype.js', 'pdf-lib'],
-    fr: { kind: 'Covering · 3D', desc: 'Configurateur de covering : films, lettrage à l\'échelle réelle, prix au mètre de film, fichiers de découpe.' },
-    en: { kind: 'Vehicle wrap · 3D', desc: 'Vehicle wrap configurator: films, lettering at real size, price per metre of film, cut files.' },
   },
   {
     id: 'hin', name: 'Hin', url: 'https://hin.ahime.net/', shot: 'hin',

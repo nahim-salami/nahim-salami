@@ -10,6 +10,24 @@ Architecte logiciel et fondateur d'<a href="https://ahime.net">Ahime</a>, studio
 
 ## Projets phares
 
+### Watch Studio
+
+**Configurateur de montres en 2D, 3D et réalité augmentée**
+
+<p><a href="https://watch.ahime.net/"><img src="assets/media/watch.webp" width="832" alt="Watch Studio : la montre « Plongée bicolore » en 3D, avec le choix de la couleur du cadran"></a></p>
+
+Un configurateur de montres qui sait quelles pièces vont ensemble. Chaque combinaison est construite en 3D à partir de ses cotes, contrôlée par des règles de compatibilité et chiffrée au centime à chaque choix. Gravure du fond, vue de nuit et réalité augmentée sur iPhone et Android.
+
+- Boîtier, lunette, cadran, aiguilles, bracelet : les pièces viennent du catalogue de la marque, et une option impossible reste visible avec sa raison
+- Prix recalculé à chaque choix, paliers de quantité pour la marque blanche, revérifié par le serveur au paiement
+- Une seule balise pour WooCommerce, Shopify ou tout site ; fichiers GLB et USDZ écrits pour chaque montre
+
+`TypeScript` `Three.js` `Web Component` `WebXR`
+
+<p><a href="https://watch.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a></p>
+
+<br>
+
 ### Douke
 
 **Agent de prospection pour les indépendants et les petites entreprises**
@@ -46,6 +64,24 @@ Un agent WhatsApp qui répond aux clients jour et nuit, prend les commandes et e
 
 <br>
 
+### Jewel Studio
+
+**Configurateur de bagues 3D qui pèse l'or et taille le diamant**
+
+<p><a href="https://jewel.ahime.net/"><img src="assets/media/jewel.webp" width="832" alt="Jewel Studio : la bague « Entourage saphir » en 3D, avec le choix du modèle"></a></p>
+
+Chaque bague est construite en 3D à partir de ses cotes. La pierre est taillée facette par facette et la lumière y est suivie rayon par rayon ; le métal est pesé d'après la géométrie et chiffré au cours du jour. Des règles de bijoutier gardent chaque commande fabricable.
+
+- Six tailles de pierre, du rond à la poire, et de nombreux sertis : solitaire, halo, entourage, toi et moi, trois pierres, chevalière
+- Prix calculé : poids du métal, table des pierres par poids, teinte et pureté, serti et façon
+- Vue portée sur une main, gravure intérieure, tailles EU, US et UK, devis et fiche d'atelier en PDF
+
+`TypeScript` `Three.js` `GLSL` `Web Component`
+
+<p><a href="https://jewel.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a></p>
+
+<br>
+
 ### Mesura
 
 **Configurateur 2D/3D en marque blanche pour les fabricants sur mesure**
@@ -61,6 +97,24 @@ Menuisiers, storistes, agenceurs : leurs clients composent le produit eux-mêmes
 `TypeScript` `React 18` `Three.js` `PHP` `WooCommerce`
 
 <p><a href="https://mesura.ahime.net/produit"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a> <a href="https://mesura.ahime.net/configurateur"><img src="assets/btn-demo.fr.svg" width="158" height="38" alt="Essayer la démo"></a></p>
+
+<br>
+
+### Wrap Studio
+
+**Configurateur de covering de véhicules en 2D, 3D et réalité augmentée**
+
+<p><a href="https://wrap.ahime.net/"><img src="assets/media/wrap.webp" width="832" alt="Wrap Studio : un fourgon habillé « Blue River » dans l'atelier, avec le choix des zones à couvrir"></a></p>
+
+Le client choisit un véhicule générique à ses cotes, habille chaque zone d'un film, puis pose lettrage, bandes, logo et dessin à l'échelle réelle. Le moteur vérifie ce qui se pose vraiment, chiffre le film réellement consommé et sort les fichiers de fabrication.
+
+- Fourgon, fourgonnette, citadine, SUV et pick-up, avec des habillages prêts à personnaliser
+- Prix qui suit les mètres de film réellement posés
+- Fichiers de découpe SVG, DXF et PLT, PDF d'impression, fiche de pose, export 3D en GLB et USDZ
+
+`TypeScript` `Three.js` `opentype.js` `pdf-lib`
+
+<p><a href="https://wrap.ahime.net/"><img src="assets/btn-site.fr.svg" width="119" height="38" alt="Voir le site"></a></p>
 
 <br>
 
@@ -124,9 +178,6 @@ Une sélection parmi plus de quarante produits en production.
   <a href="https://lifac.org/"><img src="assets/card-lifac.fr.svg" width="414" alt="LiFAC — Site, dons et gestion d'événements d'une ONG, avec paiement Mobile Money."></a>
   <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.fr.svg" width="414" alt="Tank Configurator — Configurateur de cuves industrielles pour Ziemann Holvrieka (Allemagne) : géométrie, volume et plan coté."></a>
   <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.fr.svg" width="414" alt="WiFiTche — Vente d'accès Wi-Fi par routeurs MikroTik, payée en Mobile Money. Applications client, gérant et technicien."></a>
-  <a href="https://watch.ahime.net/"><img src="assets/card-watch.fr.svg" width="414" alt="Watch Studio — Configurateur de montres en 2D, 3D et réalité augmentée : règles de compatibilité, prix en direct, gravure."></a>
-  <a href="https://jewel.ahime.net/"><img src="assets/card-jewel.fr.svg" width="414" alt="Jewel Studio — Configurateur de bagues 3D : diamant rendu facette par facette, prix tiré du poids du métal, devis PDF."></a>
-  <a href="https://wrap.ahime.net/"><img src="assets/card-wrap.fr.svg" width="414" alt="Wrap Studio — Configurateur de covering : films, lettrage à l'échelle réelle, prix au mètre de film, fichiers de découpe."></a>
   <a href="https://hin.ahime.net/"><img src="assets/card-hin.fr.svg" width="414" alt="Hin — Tâches, documents, CRM, réunions et tableau blanc au même endroit, sur le web, le bureau et le mobile."></a>
   <a href="https://imo.ahime.net/"><img src="assets/card-imo.fr.svg" width="414" alt="IMO Bénin — Location immobilière conforme à la loi 2022-30 : baux, loyers, KYC, services SBEE et SONEB."></a>
   <a href="https://omniscan.ahime.net/"><img src="assets/card-omniscan.fr.svg" width="414" alt="OmniScan3D — Scan 3D assisté par IA : reconstruction d'objets, analyse et export multi-format."></a>

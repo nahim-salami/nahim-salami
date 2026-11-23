@@ -87,9 +87,9 @@ await browser.close();
 // Trois vignettes pour la bannière : une image de chaque projet de tête.
 // (`node src/media.mjs banner` ne refait qu'elles. `at` : instant à prendre dans une vidéo.)
 const BANNER = {
+  'banner-watch': { src: join(SHOTS, 'watch.png') },
   'banner-douke': { src: join(VIDEOS, 'douke-film.webm'), at: 2.4 },
   'banner-wezon': { src: join(SHOTS, 'wezon.png') },
-  'banner-mesura': { src: join(VIDEOS, 'marque_videos_mesura-fenetre.jpg') },
 };
 for (const [name, { src, at }] of Object.entries(BANNER)) {
   if (!wanted('banner')) break;

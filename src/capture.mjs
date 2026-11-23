@@ -27,6 +27,10 @@ export const PAGES = {
   su: 'https://su.ahime.net/',
   hin: 'https://hin.ahime.net/',
   douke: 'https://douke.ahime.net/',
+  // Configurateurs : on ouvre un modèle pour montrer l'outil, pas la page d'accueil.
+  watch: { url: 'https://watch.ahime.net/', steps: [{ text: 'Personnaliser', nth: 3 }, 'Passer'] }, // « Passer » ferme la visite guidée
+  jewel: { url: 'https://jewel.ahime.net/', steps: [{ text: 'Personnaliser', nth: 3 }] },
+  wrap: { url: 'https://wrap.ahime.net/', steps: ['FR', 'Artisan sobre', 'Aller plus loin'] },
   wifitche: 'https://wifitche.ahime.net/',
   imo: 'https://imo.ahime.net/',
   lifac: 'https://lifac.org/',
@@ -39,8 +43,11 @@ export const PAGES = {
 
 const only = process.argv.slice(2);
 const browser = await puppeteer.launch({ executablePath: CHROME, headless: 'new', args: ['--hide-scrollbars', '--lang=fr-FR'] });
-for (const [name, url] of Object.entries(PAGES)) {
+for (const [name, target] of Object.entries(PAGES)) {
   if (only.length && !only.includes(name)) continue;
+  // Une page est une adresse, ou { url, steps } : les boutons à presser avant la capture, dans l'ordre.
+  // Un pas est le début du texte du bouton, ou { text, nth } pour prendre le nième (à partir de 0).
+  const { url, steps = [] } = typeof target === 'string' ? { url: target } : target;
   const page = await browser.newPage();
   await page.setViewport({ width: 1440, height: 900, deviceScaleFactor: 1 });
   await page.emulateMediaFeatures([{ name: 'prefers-reduced-motion', value: 'no-preference' }]);
@@ -52,6 +59,30 @@ for (const [name, url] of Object.entries(PAGES)) {
       const refuse = [...document.querySelectorAll('button, a')].find((b) => /continuer sans accepter|tout refuser|refuser|reject all|decline/i.test(b.textContent || ''));
       refuse?.click();
     });
+    for (const step of steps) {
+      const { text, nth = 0 } = typeof step === 'string' ? { text: step } : step;
+      const found = await page.evaluate((label, index) => {
+        // Les configurateurs sont des web components : on cherche aussi dans les shadow roots.
+        // On prend les boutons dont le texte commence par le libellé ; à défaut, tout élément qui porte
+        // exactement ce texte (le clic remonte alors jusqu'à la carte qui le contient).
+        const all = (root, test, out = []) => {
+          for (const el of root.querySelectorAll('*')) {
+            if (test(el)) out.push(el);
+            if (el.shadowRoot) all(el.shadowRoot, test, out);
+          }
+          return out;
+        };
+        const txt = (el) => (el.textContent || '').trim();
+        let hits = all(document, (el) => el.matches('button, a') && txt(el).startsWith(label));
+        if (!hits.length) hits = all(document, (el) => txt(el) === label && ![...el.children].some((c) => txt(c) === label));
+        const el = hits[index];
+        el?.click();
+        return Boolean(el);
+      }, text, nth);
+      if (!found) console.log(`  ! bouton introuvable : ${text}`);
+      await new Promise((r) => setTimeout(r, 1800));
+    }
+    if (steps.length) await new Promise((r) => setTimeout(r, 4000));
     await new Promise((r) => setTimeout(r, 1200));
     await page.screenshot({ path: join(OUT, `${name}.png`) });
     console.log(`${name}: ${res?.status()} ${await page.title()}`);

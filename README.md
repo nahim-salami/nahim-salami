@@ -124,6 +124,9 @@ Une sélection parmi plus de quarante produits en production.
   <a href="https://lifac.org/"><img src="assets/card-lifac.fr.svg" width="414" alt="LiFAC — Site, dons et gestion d'événements d'une ONG, avec paiement Mobile Money."></a>
   <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.fr.svg" width="414" alt="Tank Configurator — Configurateur de cuves industrielles pour Ziemann Holvrieka (Allemagne) : géométrie, volume et plan coté."></a>
   <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.fr.svg" width="414" alt="WiFiTche — Vente d'accès Wi-Fi par routeurs MikroTik, payée en Mobile Money. Applications client, gérant et technicien."></a>
+  <a href="https://watch.ahime.net/"><img src="assets/card-watch.fr.svg" width="414" alt="Watch Studio — Configurateur de montres en 2D, 3D et réalité augmentée : règles de compatibilité, prix en direct, gravure."></a>
+  <a href="https://jewel.ahime.net/"><img src="assets/card-jewel.fr.svg" width="414" alt="Jewel Studio — Configurateur de bagues 3D : diamant rendu facette par facette, prix tiré du poids du métal, devis PDF."></a>
+  <a href="https://wrap.ahime.net/"><img src="assets/card-wrap.fr.svg" width="414" alt="Wrap Studio — Configurateur de covering : films, lettrage à l'échelle réelle, prix au mètre de film, fichiers de découpe."></a>
   <a href="https://hin.ahime.net/"><img src="assets/card-hin.fr.svg" width="414" alt="Hin — Tâches, documents, CRM, réunions et tableau blanc au même endroit, sur le web, le bureau et le mobile."></a>
   <a href="https://imo.ahime.net/"><img src="assets/card-imo.fr.svg" width="414" alt="IMO Bénin — Location immobilière conforme à la loi 2022-30 : baux, loyers, KYC, services SBEE et SONEB."></a>
   <a href="https://omniscan.ahime.net/"><img src="assets/card-omniscan.fr.svg" width="414" alt="OmniScan3D — Scan 3D assisté par IA : reconstruction d'objets, analyse et export multi-format."></a>

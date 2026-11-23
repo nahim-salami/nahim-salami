@@ -124,6 +124,9 @@ A selection from more than forty products in production.
   <a href="https://lifac.org/"><img src="assets/card-lifac.en.svg" width="414" alt="LiFAC — Website, donations and event management for an NGO, with Mobile Money payment."></a>
   <a href="http://tank-config.ziemann-holvrieka.com/"><img src="assets/card-tank.en.svg" width="414" alt="Tank Configurator — Industrial tank configurator for Ziemann Holvrieka (Germany): geometry, volume and dimensioned drawing."></a>
   <a href="https://wifitche.ahime.net/"><img src="assets/card-wifitche.en.svg" width="414" alt="WiFiTche — Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps."></a>
+  <a href="https://watch.ahime.net/"><img src="assets/card-watch.en.svg" width="414" alt="Watch Studio — Watch configurator in 2D, 3D and augmented reality: compatibility rules, live price, engraving."></a>
+  <a href="https://jewel.ahime.net/"><img src="assets/card-jewel.en.svg" width="414" alt="Jewel Studio — Ring configurator in 3D: diamond rendered facet by facet, price from the metal weight, PDF quote."></a>
+  <a href="https://wrap.ahime.net/"><img src="assets/card-wrap.en.svg" width="414" alt="Wrap Studio — Vehicle wrap configurator: films, lettering at real size, price per metre of film, cut files."></a>
   <a href="https://hin.ahime.net/"><img src="assets/card-hin.en.svg" width="414" alt="Hin — Tasks, documents, CRM, meetings and a whiteboard in one place, on web, desktop and mobile."></a>
   <a href="https://imo.ahime.net/"><img src="assets/card-imo.en.svg" width="414" alt="IMO Bénin — Property rental compliant with Benin law 2022-30: leases, rent, KYC, SBEE and SONEB utilities."></a>
   <a href="https://omniscan.ahime.net/"><img src="assets/card-omniscan.en.svg" width="414" alt="OmniScan3D — AI-assisted 3D scanning: object reconstruction, analysis and multi-format export."></a>

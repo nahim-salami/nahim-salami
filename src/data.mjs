@@ -189,6 +189,24 @@ export const OTHERS = [
     en: { kind: 'Wi-Fi · MikroTik', desc: 'Wi-Fi access sold through MikroTik routers, paid by Mobile Money. Customer, owner and technician apps.' },
   },
   {
+    id: 'watch', name: 'Watch Studio', url: 'https://watch.ahime.net/', shot: 'watch',
+    stack: ['TypeScript', 'Three.js', 'Web Component', 'WebXR'],
+    fr: { kind: 'Horlogerie · 3D', desc: 'Configurateur de montres en 2D, 3D et réalité augmentée : règles de compatibilité, prix en direct, gravure.' },
+    en: { kind: 'Watchmaking · 3D', desc: 'Watch configurator in 2D, 3D and augmented reality: compatibility rules, live price, engraving.' },
+  },
+  {
+    id: 'jewel', name: 'Jewel Studio', url: 'https://jewel.ahime.net/', shot: 'jewel',
+    stack: ['TypeScript', 'Three.js', 'GLSL', 'Web Component'],
+    fr: { kind: 'Joaillerie · 3D', desc: 'Configurateur de bagues 3D : diamant rendu facette par facette, prix tiré du poids du métal, devis PDF.' },
+    en: { kind: 'Jewellery · 3D', desc: 'Ring configurator in 3D: diamond rendered facet by facet, price from the metal weight, PDF quote.' },
+  },
+  {
+    id: 'wrap', name: 'Wrap Studio', url: 'https://wrap.ahime.net/', shot: 'wrap',
+    stack: ['TypeScript', 'Three.js', 'opentype.js', 'pdf-lib'],
+    fr: { kind: 'Covering · 3D', desc: 'Configurateur de covering : films, lettrage à l\'échelle réelle, prix au mètre de film, fichiers de découpe.' },
+    en: { kind: 'Vehicle wrap · 3D', desc: 'Vehicle wrap configurator: films, lettering at real size, price per metre of film, cut files.' },
+  },
+  {
     id: 'hin', name: 'Hin', url: 'https://hin.ahime.net/', shot: 'hin',
     stack: ['React', 'Tauri', 'Laravel', 'Gemini'],
     fr: { kind: 'Travail d\'équipe', desc: 'Tâches, documents, CRM, réunions et tableau blanc au même endroit, sur le web, le bureau et le mobile.' },
